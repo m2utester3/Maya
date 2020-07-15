@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - Are you sure you want to remove this transaction</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (contains(text(), 'Are you sure you want to') or contains(., 'Are you sure you want to'))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,10 +21,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Are you sure you want to remove this transaction?</value>
+      <value>Are you sure you want to</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

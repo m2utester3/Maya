@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - More'), 0)
 
@@ -24,6 +25,22 @@ Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung'), 0)
 
 Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung'), 0)
+
+var1500 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Enter your 6-digit PIN'), 0)
+
+Mobile.verifyEqual(var1500, 'Enter your 6-digit PIN')
+
+Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 5'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 5'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 5'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 5'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 5'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 5'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung (1)'), 0)
 
@@ -51,25 +68,27 @@ Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.Text
 
 Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.ImageView0'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung together-gether'), 0)
-
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Plan a holiday with friends or get that shiny new gadget. Stash money aside for your big or small moments with Tabung and get there faster'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung together-gether'), 
     0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Next'), 0)
-
-Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Next'), 0)
-
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Pick a category to start saving.'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Plan a holiday with friends or get that shiny new gadget. Stash money aside for your big or small moments with Tabung and get there faster'), 
     0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.ImageView0'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Next'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung together-gether'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Next'), 0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.ImageView0 (1)'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Pick a category to start saving.'), 
+    0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung (1)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.ImageView0'), 0)
+
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung together-gether'), 
+    0)
+
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.ImageView0 (1)'), 0)
+
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Tabung (1)'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - BOOSTERS'), 0)
 
@@ -77,7 +96,7 @@ Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Spare Change'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Round up to the nearest RM  1.'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Round up to the nearest RM  1.'), 
     0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Guilty Pleasure'), 0)
@@ -89,12 +108,13 @@ WebUI.delay(2)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Scan  Pay Savers'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View how much youve saved from promos using this Booster.'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View how much youve saved from promos using this Booster.'), 
     0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View Details'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View Details'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Activated in 0 Tabung'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Activated in 0 Tabung'), 
+    0)
 
 'vertical swipe'
 Mobile.swipe(500, 1000, 500, 1600)
@@ -103,23 +123,26 @@ WebUI.delay(2)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Spare Change'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View Details (1)'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View Details (1)'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Activated in 0 Tabung (1)'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Activated in 0 Tabung (1)'), 
+    0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View Details (1)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - View Details (1)'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Spare Change'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Boosters (1)'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Spare Change (1)'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Booster summary'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Booster summary'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Round up to the nearest'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - RM  1.00'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Active Tabung'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Active Tabung'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Tabung - BOOSTERS/android.widget.TextView0 - Want to start saving Start a Tabung now and add a Booster to it.'), 
     0)

@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'app launch'
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', true)
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
@@ -43,9 +43,6 @@ Mobile.tap(findTestObject('MAYA SIT v118/android.view.ViewGroup0 (1)'), 0)
 Mobile.tap(findTestObject('MAYA SIT v118/android.view.ViewGroup0 (2)'), 0)
 
 WebUI.delay(3)
-
-'X'
-not_run: Mobile.tap(findTestObject('MAYA SIT Regression SPY/onboarding - crosss button'), 0)
 
 Mobile.tapAtPosition(width * 0.91018, height * 0.09166)
 

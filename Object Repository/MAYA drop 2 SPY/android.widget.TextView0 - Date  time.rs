@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.TextView' and (text() = 'Date &amp; Time' or . = 'Date &amp; Time')]</value>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'Date &amp; time' or . = 'Date &amp; time')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Date &amp; Time</value>
+      <value>Date &amp; time</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

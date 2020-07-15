@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
@@ -23,7 +24,7 @@ def width = Mobile.getDeviceWidth()
 
 var150 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Split Bills'), 0)
 
-Mobile.verifyEqual(var150, 'Split Bills')
+Mobile.verifyEqual(var150, 'Split Bill')
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/splitBills/1.png', FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -61,12 +62,11 @@ Mobile.verifyEqual(var152, 'TO COLLECT')
 
 var153 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Got an IOU situation'), 0)
 
-Mobile.verifyEqual(var153, 'Got an IOU situation')
+Mobile.verifyEqual(var153, 'Got an IOU situation?')
 
-var154 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Evenly or separately its time to split the bill with friends'), 
-    0)
+var154 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/UAT - SplitBill msg evenly seprate'), 0)
 
-Mobile.verifyEqual(var154, 'Evenly or separately its time to split the bill with friends')
+Mobile.verifyEqual(var154, 'Evenly or separately,\nit\'s time to split the bill with friends!')
 
 var155 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Split a Bill'), 0)
 
@@ -107,6 +107,10 @@ Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 -
 var159 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Create Group'), 0)
 
 Mobile.verifyEqual(var159, 'Create Group')
+
+Mobile.swipe(100, 445, 1000, 445)
+
+WebUI.delay(3)
 
 Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - TO COLLECT (1)'), 0)
 
@@ -214,15 +218,17 @@ Mobile.verifyEqual(var172, 'GROUPS')
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/splitBills/11.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.view.ViewGroup0'), 0)
+WebUI.delay(10)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.view.ViewGroup0 (1)'), 0)
+Mobile.tapAtPosition(width * 0.46296, height * 0.41666)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.view.ViewGroup0 (2)'), 0)
+Mobile.tapAtPosition(width * 0.46296, height * 0.51562)
+
+Mobile.tapAtPosition(width * 0.46296, height * 0.71875)
 
 var173 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Add'), 0)
 
-Mobile.verifyEqual(var173, 'Add')
+Mobile.verifyEqual(var173, 'Done')
 
 Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Add'), 0)
 
@@ -254,7 +260,9 @@ Mobile.verifyEqual(var176, 'Add Contact')
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/splitBills/13.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.view.ViewGroup0 (3)'), 0)
+WebUI.delay(10)
+
+Mobile.tapAtPosition(width * 0.46296, height * 0.81770)
 
 Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Add'), 0)
 
@@ -302,7 +310,7 @@ var182 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.Te
 
 Mobile.verifyEqual(var182, 'Receipt')
 
-Mobile.tap(findTestObject('MAYA drop 2 SPY/split bill - attach bill'), 0)
+Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/UAT - SplitBill CAMERA child'), 0)
 
 Mobile.getText(findTestObject('MAYA drop 2 SPY/split bill - 1'), 0)
 
@@ -334,6 +342,12 @@ Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/splitBills/19.png', Fail
 
 Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Split Now'), 0)
 
+WebUI.delay(3)
+
+Mobile.pressBack()
+
+WebUI.delay(3)
+
 var184 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Split bill created'), 0)
 
 Mobile.verifyEqual(var184, 'Split bill created')
@@ -348,7 +362,7 @@ var186 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.Te
 
 Mobile.verifyEqual(var186, 'Date & time')
 
-Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 30 Apr 2020 1849'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - 30 Apr 2020 1849'), 0)
 
 var187 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Done'), 0)
 
@@ -440,6 +454,8 @@ var197 = Mobile.getText(findTestObject('MAYA Drop 2/SplitBills/android.widget.Te
 Mobile.verifyEqual(var197, 'Confirm')
 
 Mobile.tap(findTestObject('MAYA Drop 2/SplitBills/android.widget.TextView0 - Confirm'), 0)
+
+WebUI.delay(2)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/splitBills/25.png', FailureHandling.CONTINUE_ON_FAILURE)
 

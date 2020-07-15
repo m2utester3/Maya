@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'android.widget.EditText' and (text() = 'Maxis Mobile Sdn Bhd' or . = 'Maxis Mobile Sdn Bhd')]</value>
+         <value>//*[@class = 'android.widget.EditText' and (text() = 'Maxis Mobile' or . = 'Maxis Mobile')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,10 +21,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Maxis Mobile Sdn Bhd</value>
+      <value>Maxis Mobile</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

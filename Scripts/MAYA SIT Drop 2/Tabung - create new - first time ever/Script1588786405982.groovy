@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 

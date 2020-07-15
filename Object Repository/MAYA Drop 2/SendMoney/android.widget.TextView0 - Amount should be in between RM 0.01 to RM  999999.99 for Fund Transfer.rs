@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - Amount should be in between RM 0.01 to RM  999999.99 for Fund Transfer</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (contains(text(), 'Amount needs to be at least RM 0.01.') or contains(., 'Amount needs to be at least RM 0.01.'))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,11 +21,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Amount should be in between RM 0.01 to 
-RM  999,999.99 for Fund Transfer</value>
+      <value>Amount needs to be at least RM 0.01.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

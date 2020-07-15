@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Katalon'), 0)
 
@@ -106,14 +107,19 @@ Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextV
 
 Mobile.tap(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Continue'), 0)
 
-def otpMessage = Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Your Otp no. is 032449'), 
-    0)
+Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/spy/Fortgot Login - OTP header msg'), 0)
+
+Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/spy/Fortgot Login - OTP header msg - CONFIRM'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/Forgot M2U Login/spy/Fortgot Login - OTP header msg - CONFIRM'), 0)
+
+def otpMessage = Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/spy/Fortgot Login - OTP number'), 0)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/forgotM2ULogin/5.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - One Time Password'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Enter OTP sent to '), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Enter OTP sent to '), 0)
 
 for (def i = 16; i <= 21; i++) {
     if ((otpMessage[i]) == '0') {
@@ -159,7 +165,7 @@ for (def i = 16; i <= 21; i++) {
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/forgotM2ULogin/6.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/Forgot M2U Login/forgot m2u login OTP OK button'), 0)
+Mobile.tap(findTestObject('MAYA Drop 2/Forgot M2U Login/spy/Fortgot Login - OTP OK btn'), 0)
 
 varm = Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Account login'), 0)
 
@@ -253,23 +259,25 @@ Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/forgotM2ULogin/11.png', 
 
 Mobile.tap(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Continue'), 0)
 
-Mobile.setText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.EditText0 - Pass1245'), 'Pass@1245', 0)
+Mobile.setText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.EditText0 - Pass1245'), 'Pass@1246', 0)
 
-Mobile.setText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.EditText0 - Pass1245 (1)'), 'Pass@1245', 0)
-
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/forgotM2ULogin/12.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.setText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.EditText0 - Pass1245 (1)'), 'Pass@1246', 0)
 
 varb = Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Continue'), 0)
 
 Mobile.verifyEqual(varb, 'Continue')
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/forgotM2ULogin/12.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Drop 2/Forgot M2U Login/android.widget.TextView0 - Continue'), 0)
 
-vara = Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/GET TEXT reset pwd msg - FAIL'), 0)
+WebUI.delay(2)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/forgotM2ULogin/13.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.verifyEqual(vara, 'The provided new password was already contained in the password history')
+not_run: vara = Mobile.getText(findTestObject('MAYA Drop 2/Forgot M2U Login/GET TEXT reset pwd msg - FAIL'), 0)
+
+not_run: Mobile.verifyEqual(vara, 'The provided new password was already contained in the password history')
 
 not_run: Mobile.closeApplication()
 

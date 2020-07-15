@@ -470,7 +470,7 @@ Mobile.tap(findTestObject('MAYA Drop 3/Expenses/Expenses - Edit trxn back button
 
 Mobile.tap(findTestObject('MAYA Drop 3/Expenses/Expenses - Edit trxn back button 2'), 0)
 
-not_run: Mobile.getText(findTestObject('MAYA Drop 3/Expenses/android.widget.TextView0 - Expenses (3)'), 0)
+Mobile.getText(findTestObject('MAYA Drop 3/Expenses/android.widget.TextView0 - Expenses (3)'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 3/Expenses/android.widget.TextView0 - MAY (2)'), 0)
 
@@ -484,7 +484,7 @@ Mobile.getText(findTestObject('MAYA Drop 3/Expenses/android.widget.TextView0 - E
 
 WebUI.delay(3)
 
-Mobile.swipe(500, 1500, 500, 900)
+Mobile.swipe(500, 1500, 500, 800)
 
 Mobile.getText(findTestObject('MAYA Drop 3/Expenses/android.widget.TextView0 - Education (4)'), 0)
 

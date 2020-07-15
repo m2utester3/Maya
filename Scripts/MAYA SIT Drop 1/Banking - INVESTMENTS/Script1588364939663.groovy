@@ -15,14 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'peileng'
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch (peileng) (UAT_test06)'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
 def width = Mobile.getDeviceWidth()
 
-WebUI.delay(7)
+'quick actions- Transfer'
+Mobile.getText(findTestObject('MAYA SIT v127 - trans own acct/android.widget.TextView0 - Transfer'), 0)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/bankingINVESTMENTS/0.png', FailureHandling.CONTINUE_ON_FAILURE)
 

@@ -16,7 +16,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
@@ -28,11 +29,7 @@ Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/1.png', Failur
 
 Mobile.tap(findTestObject('MAYA SIT Regression SPY/Reload button'), 0)
 
-Mobile.setText(findTestObject('MAYA SIT v118/buy reload/android.widget.EditText0'), 'pass1234', 0)
-
-WebUI.delay(2)
-
-Mobile.tap(findTestObject('MAYA SIT v118/buy reload/android.widget.EditText0'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.setText(findTestObject('MAYA SIT Regression SPY/UAT - Reload SET PWD'), 'pass1234', 0)
 
 WebUI.delay(2)
 
@@ -56,7 +53,7 @@ Mobile.tap(findTestObject('MAYA SIT v118/buy reload/android.widget.TextView0 - C
 
 WebUI.delay(2)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/5.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/5.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA SIT Regression SPY/reload - back at maxis'), 0)
 
@@ -64,7 +61,7 @@ Mobile.tap(findTestObject('MAYA SIT v118/buy reload/android.widget.TextView0 - D
 
 WebUI.delay(2)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/6.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/6.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA SIT Regression SPY/reload - back at maxis'), 0)
 
@@ -72,7 +69,7 @@ Mobile.tap(findTestObject('MAYA SIT v118/buy reload/android.widget.TextView0 - U
 
 WebUI.delay(2)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/7.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/7.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA SIT Regression SPY/reload - back at maxis'), 0)
 
@@ -80,7 +77,7 @@ WebUI.delay(2)
 
 Mobile.tap(findTestObject('MAYA SIT Regression SPY/reload - back at maxis'), 0)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/8.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/8.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA SIT v127 - trans own acct/Banking - CASA/android.widget.TextView0 - Maybank2u'), 0)
 
@@ -98,7 +95,7 @@ Mobile.tap(findTestObject('MAYA SIT Regression SPY/reload search SET TEXT'), 0, 
 
 WebUI.delay(3)
 
-Mobile.setText(findTestObject('MAYA SIT Regression SPY/reload search SET TEXT'), 'umobile', 0)
+Mobile.setText(findTestObject('MAYA SIT Regression SPY/reload search SET TEXT'), 'digi', 0)
 
 WebUI.delay(2)
 
@@ -168,7 +165,7 @@ WebUI.delay(2)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/12.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.setText(findTestObject('MAYA SIT v118/buy reload/android.widget.EditText0 -   Search'), 'ferzana malaysia new', 0)
+Mobile.setText(findTestObject('MAYA SIT v118/buy reload/android.widget.EditText0 -   Search'), 'mosaj', 0)
 
 WebUI.delay(2)
 
@@ -305,7 +302,7 @@ not_run: if (Mobile.verifyElementExist(findTestObject('MAYA SIT Regression SPY/s
     Mobile.tap(findTestObject('MAYA SIT Regression SPY/s2u registration 6 done'), 0)
 }
 
-if (Mobile.verifyElementExist(findTestObject('MAYA Drop 2/OnTAPauthorization/onTAPautorization 1'), 0)) {
+not_run: if (Mobile.verifyElementExist(findTestObject('MAYA Drop 2/OnTAPauthorization/onTAPautorization 1'), 0)) {
     Mobile.getText(findTestObject('MAYA Drop 2/OnTAPauthorization/onTAPautorization 1'), 0)
 
     Mobile.getText(findTestObject('MAYA Drop 2/OnTAPauthorization/onTAPautorization 2'), 0)
@@ -420,7 +417,7 @@ Mobile.verifyEqual(confirmpage, 'Confirmation')
 
 def telco = Mobile.getText(findTestObject('MAYA SIT Regression SPY/reload get telco name'), 0)
 
-Mobile.verifyEqual(telco, 'UMobile')
+not_run: Mobile.verifyEqual(telco, 'UMobile')
 
 Mobile.getText(findTestObject('MAYA SIT Regression SPY/reload get mobile number'), 0)
 
@@ -442,11 +439,11 @@ Mobile.tap(findTestObject('MAYA SIT Regression SPY/reload Pay Now'), 0)
 
 WebUI.delay(5)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/28.png', FailureHandling.CONTINUE_ON_FAILURE)
-
 s2u = Mobile.getText(findTestObject('MAYA Drop 2/SendMoney-MAE/android.widget.TextView0 - Secure2u authorisation'), 0)
 
 Mobile.verifyEqual(s2u, 'One-Tap Authorisation')
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/28.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 approve = Mobile.getText(findTestObject('MAYA Drop 2/SendMoney-MAE/android.widget.TextView0 - Approve'), 0)
 
@@ -496,7 +493,8 @@ Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/32.png', Failu
 
 WebUI.delay(2)
 
-Mobile.tap(findTestObject('MAYA SIT v127 - trans own acct/Banking - CASA/android.widget.TextView0 - Savings Account'), 0)
+not_run: Mobile.tap(findTestObject('MAYA SIT v127 - trans own acct/Banking - CASA/android.widget.TextView0 - Savings Account'), 
+    0)
 
 Mobile.tap(findTestObject('MAYA SIT Regression SPY/Reload button'), 0)
 
@@ -504,7 +502,7 @@ Mobile.tap(findTestObject('MAYA SIT Regression SPY/reload search box'), 0)
 
 WebUI.delay(2)
 
-Mobile.setText(findTestObject('MAYA SIT Regression SPY/reload search SET TEXT'), 'umobile', 0)
+Mobile.setText(findTestObject('MAYA SIT Regression SPY/reload search SET TEXT'), 'Digi', 0)
 
 WebUI.delay(2)
 
@@ -527,7 +525,7 @@ WebUI.delay(2)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/33.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.setText(findTestObject('MAYA SIT v118/buy reload/android.widget.EditText0 -   Search'), 'ferzana malaysia new', 0)
+Mobile.setText(findTestObject('MAYA SIT v118/buy reload/android.widget.EditText0 -   Search'), 'Mosaj', 0)
 
 WebUI.delay(2)
 
@@ -575,11 +573,11 @@ Mobile.tap(findTestObject('MAYA SIT v118/buy reload/spy/pay'), 0)
 
 WebUI.delay(5)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/39.png', FailureHandling.CONTINUE_ON_FAILURE)
-
 s2u = Mobile.getText(findTestObject('MAYA Drop 2/SendMoney-MAE/android.widget.TextView0 - Secure2u authorisation'), 0)
 
 Mobile.verifyEqual(s2u, 'One-Tap Authorisation')
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/buyReload/39.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 REJECT = Mobile.getText(findTestObject('MAYA SIT Regression SPY/reload OTA reject button'), 0)
 

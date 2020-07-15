@@ -15,13 +15,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
 def width = Mobile.getDeviceWidth()
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Hello'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/31.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - More'), 0)
 
@@ -37,319 +40,19 @@ Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
 
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Manage account details'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Maybank2u'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Manage Maybank2u settings'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Security'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Manage security settings'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Notifications (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Manage notifications'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Support'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Feedback  FAQ'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - About MAE'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - About'), 0)
-
-not_run: WebUI.delay(2)
-
-not_run: Mobile.swipe(500, 1600, 500, 400)
-
-not_run: WebUI.delay(2)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - About Us'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Terms  Conditions'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Privacy Policy'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Security Policy'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Client Charter'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - About Us'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - About Us (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Version 0.4.0.158.4000'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Terms  Conditions'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Terms  Conditions'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Terms  Conditions (1)'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Privacy Policy'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Privacy Policy'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Privacy Policy (1)'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Security Policy'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Security Policy'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Security Policy (1)'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Client Charter'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Client Charter'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Client Charter (1)'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0 (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Hello (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Login'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Manage account details'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 6-Digit PIN'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Enter your 6-digit PIN'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Forgot PIN'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0 (2)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Enter your 6-digit PIN'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0 (3)'), 0)
-
-not_run: WebUI.delay(2)
-
-not_run: Mobile.tap(findTestObject('MAYA SIT v118/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA SIT v118/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA SIT v118/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA SIT v118/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA SIT v118/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA SIT v118/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Update Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Last successful login'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 7 May 2020 0435 AM'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Name'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0 - katalon'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0 - katalon'), 0)
-
-not_run: Mobile.setText(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0 - katalon (1)'), 'KATALON MOSAJ', 
-    0)
-
-not_run: Mobile.hideKeyboard()
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Mobile number'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 6012  848'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 6012  848'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 6012  848'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Whats your mobile number'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Take note that this number will not replace your current mobile number used for Maybank2u transactions.'), 
-    0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 601'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 1'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 2'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 6'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 3'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 1'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 1'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0 (4)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Please enter a valid mobile number in order to continue.'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0 (5)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Email address'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0 - Optional'), 0)
-
-not_run: Mobile.setText(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0 - Optional (1)'), 'mosajgohar@gmail.com', 
-    0)
-
-not_run: Mobile.hideKeyboard()
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Save Changes'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Save Changes'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Update Profile'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Update Profile'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0 (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Hello (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - katalon'), 0)
-
-not_run: Mobile.verifyElementText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - katalon'), 'KATALON MOSAJ')
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Logout'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Logout'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/General Settings - back to Dashboard MSG'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/General Settings - back to Dashboard - logout time'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/General Settings - back to Dashboard'), 0)
-
-not_run: WebUI.delay(2)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Hello'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - katalon (1)'), 0)
-
-not_run: Mobile.verifyElementText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - katalon (1)'), 
-    'KATALON MOSAJ')
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - More'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - More'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Hello (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - katalon'), 0)
-
-not_run: Mobile.verifyElementText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - katalon'), 'KATALON MOSAJ')
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Enter your 6-digit PIN'), 
-    0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - 5'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Update Profile'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Name'), 0)
-
-not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0 - katalon'), 0)
-
-not_run: Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.ImageView0'), 0)
-
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Settings (1)'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Maybank2u'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/32.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Maybank2u'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Enter your password'), 0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0'), 0)
+Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 (1)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.setText(findTestObject('MAYA Drop 2/General Settings/android.widget.EditText0 (1)'), 'pass1234', 0)
+Mobile.setText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 (1)'), 'pass1234', 0)
 
 WebUI.delay(2)
 
@@ -365,6 +68,8 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextV
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Change Password'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/33.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.swipe(500, 1700, 500, 1500)
 
 WebUI.delay(2)
@@ -377,6 +82,8 @@ WebUI.delay(2)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Scan  Pay'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/34.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Scan  Pay'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Scan  Pay (1)'), 0)
@@ -385,6 +92,8 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextV
     0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Get Started'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/35.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Get Started'), 0)
 
@@ -395,9 +104,9 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextV
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Drag the slider to adjust your daily limit.'), 
     0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - RM 350'), 0)
-
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Cumulative Limit'), 0)
+
+Mobile.swipe(500, 1800, 500, 1600)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings/android.widget.TextView0 - Confirm'), 0)
 
@@ -410,6 +119,8 @@ Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.ImageVi
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Settings'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - One-Tap Authorisation'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/36.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - One-Tap Authorisation'), 0)
 
@@ -516,6 +227,8 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.Tex
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Confirm'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/37.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.ImageView0 (1)'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - One-Tap Authorisation'), 0)
@@ -532,7 +245,13 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.Tex
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Confirm'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/38.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Confirm'), 0)
+
+WebUI.delay(1)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/38.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Unsuccessful'), 0)
 
@@ -558,6 +277,8 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.Tex
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - Enter current password'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/39.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.setText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - Enter current password'), 'pass123', 
     0)
 
@@ -577,11 +298,11 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.Tex
 
 WebUI.delay(2)
 
-Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.view.ViewGroup0 (1)'), 0)
+Mobile.tap(findTestObject('MAYA SIT Regression SPY/UAT - Chng pwd SHOW PWD btn'), 0)
 
 WebUI.delay(2)
 
-Mobile.tap(findTestObject('MAYA Drop 2/General Settings/General Settings - show pwd Radio button'), 0)
+Mobile.tap(findTestObject('MAYA SIT Regression SPY/UAT - Chng pwd SHOW PWD btn'), 0)
 
 WebUI.delay(2)
 
@@ -598,48 +319,56 @@ Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.Tex
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Continue'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/40.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Continue'), 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - pass123'), 0)
 
-Mobile.setText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - pass123'), 'Maybank@1', 0)
+Mobile.setText(findTestObject('MAYA SIT Regression SPY/UAT - Chng pwd current text'), 'Citibank@1', 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - pass1234'), 0)
 
-Mobile.setText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - pass1234'), 'Maybank@2', 0)
+Mobile.setText(findTestObject('MAYA SIT Regression SPY/UAT - Chng pwd new text'), 'Citibank@2', 0)
 
 Mobile.hideKeyboard()
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - pass1234 (1)'), 0)
 
-Mobile.setText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - pass1234 (1)'), 'Maybank@3', 0)
+Mobile.setText(findTestObject('MAYA SIT Regression SPY/UAT - Chng pwd confirm text'), 'Citibank@3', 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Continue'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/41.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Continue'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - Maybank3'), 0)
-
-Mobile.setText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.EditText0 - Maybank3'), 'Maybank@2', 0)
+Mobile.setText(findTestObject('MAYA SIT Regression SPY/UAT - Chng pwd confirm text'), 'Citibank@2', 0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Continue'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/42.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - Continue'), 0)
-
-Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - One Time Password'), 0)
-
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 30'), 0)
-
-Mobile.getText(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 31'), 0)
-
-Mobile.tap(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 31'), 0)
-
-def otpTabungCreate2 = Mobile.getText(findTestObject('MAYA SIT v118/android.widget.TextView0 - Your OTP no. is 190081'), 
-    0)
 
 WebUI.delay(2)
 
-for (def i = 16; i <= 21; i++) {
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/SettingsChangePIN/43.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/General Settings 2/android.widget.TextView0 - One Time Password'), 0)
+
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 30'), 0)
+
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 31'), 0)
+
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 31'), 0)
+
+not_run: def otpTabungCreate2 = Mobile.getText(findTestObject('MAYA SIT v118/android.widget.TextView0 - Your OTP no. is 190081'), 
+    0)
+
+not_run: WebUI.delay(2)
+
+not_run: for (def i = 16; i <= 21; i++) {
     if ((otpTabungCreate2[i]) == '0') {
         Mobile.tap(findTestObject('MAYA SIT Regression SPY/kp onboard 0'), 0)
     }
@@ -681,9 +410,9 @@ for (def i = 16; i <= 21; i++) {
     }
 }
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-Mobile.tap(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 32 TICK'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/Tabung-create new/tabung SPY/tabung - create new confirm 32 TICK'), 0)
 
-Mobile.closeApplication()
+not_run: Mobile.closeApplication()
 

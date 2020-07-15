@@ -15,7 +15,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+'app launch'
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
@@ -34,16 +35,19 @@ Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widg
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Maybank2u'), 0)
 
+WebUI.delay(3)
+
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Maybank2u'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6-Digit PIN'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6-Digit PIN'), 
+    0)
 
 enterOTP = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Enter your 6-digit PIN'), 
     0)
 
 Mobile.verifyEqual(enterOTP, 'Enter your 6-digit PIN')
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/121.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/121.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 5'), 0)
 
@@ -55,7 +59,7 @@ Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widg
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 5'), 0)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/122.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/122.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 5'), 0)
 
@@ -86,16 +90,26 @@ Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - RequestMoney'), 0)
 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendMoney/android.widget.TextView0 - Enter your password'), 0)
+
+not_run: Mobile.setText(findTestObject('MAYA Drop 2/SendMoney/spy UAT/UAT - Send Money SET PWD'), 'pass1234', 0)
+
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendMoney/spy UAT/UAT - Send Money SET PWD'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: WebUI.delay(10)
+
+not_run: Mobile.tapAtPosition(width * 0.90740, height * 0.94375)
+
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Send  Request (2)'), 
     0)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/124.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/124.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (2)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (2)'), 0)
 
-Mobile.setText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.EditText0'), 'fadhli', 0)
+not_run: Mobile.setText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.EditText0'), 'fadhli', 0)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/125.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/125.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
@@ -104,13 +118,17 @@ var = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/an
 
 Mobile.verifyEqual(var, '0/1 contacts selected.')
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank'), 
+    0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6012 7845 015'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6012 7845 015'), 
+    0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.view.ViewGroup0'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.view.ViewGroup0'), 0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.view.ViewGroup0 (1)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.view.ViewGroup0 (1)'), 0)
+
+WebUI.delay(10)
 
 var1 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 11 contacts selected.'), 
     0)
@@ -123,14 +141,16 @@ Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Add'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Send  Request (1)'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Send  Request (1)'), 
     0)
+
+WebUI.delay(10)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/127.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 60127845015'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank (1)'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank (1)'), 
     0)
 
 var2 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Enter amount'), 
@@ -146,7 +166,7 @@ Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widg
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 0'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Send  Request (1)'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Send  Request (1)'), 
     0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Enter amount'), 0)
@@ -155,7 +175,9 @@ Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/128.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (3)'), 0)
+Mobile.tap(findTestObject('MAYA Drop 2/SendMoney/spy UAT/UAT - Send Money OK btn'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (3)'), 0)
 
 var4 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Confirmation'), 
     0)
@@ -199,24 +221,29 @@ Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (6)'), 0)
 
-Mobile.setText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.EditText0 (1)'), 'fadhli', 0)
+WebUI.delay(10)
+
+not_run: Mobile.setText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.EditText0 (1)'), 'fadhli', 
+    0)
 
 Mobile.hideKeyboard()
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 01 contacts selected. (1)'), 
     0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank (2)'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank (2)'), 
     0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6012 7845 015 (1)'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6012 7845 015 (1)'), 
     0)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/130.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/130.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank (2)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank (2)'), 
+    0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6012 7845 015 (1)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 6012 7845 015 (1)'), 
+    0)
 
 var6 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 11 contacts selected. (1)'), 
     0)
@@ -240,7 +267,9 @@ Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widg
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/132.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (7)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (7)'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/SendMoney/spy UAT/UAT - Send Money OK btn'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 var7 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Confirmation'), 
     0)
@@ -252,7 +281,7 @@ Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/133.png
 var8 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Youve requestedmoney from'), 
     0)
 
-Mobile.verifyEqual(var8, 'You\'ve requested\nmoney from')
+not_run: Mobile.verifyEqual(var8, 'money from')
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli Maybank'), 0)
 
@@ -264,28 +293,30 @@ Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widg
 
 var9 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Transfer'), 0)
 
-Mobile.verifyEqual(var9, 'Transfer')
+not_run: Mobile.verifyEqual(var9, 'Transfer')
 
 var10 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Enter amount (1)'), 
     0)
 
 Mobile.verifyEqual(var10, 'Enter amount')
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/134.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/134.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.EditText0 - 0.10 (1)'), 0)
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 2'), 0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 1 (1)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 1 (1)'), 0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 0 (1)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 0 (1)'), 0)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 2'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 2'), 0)
 
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/135.png', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/135.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (7)'), 0)
+not_run: Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.ImageView0 (7)'), 0)
+
+Mobile.tap(findTestObject('MAYA Drop 2/SendMoney/spy UAT/UAT - Send Money OK btn'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 var11 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Confirmation'), 
     0)
@@ -297,7 +328,7 @@ Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/136.png
 var12 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Youve requestedmoney from'), 
     0)
 
-Mobile.verifyEqual(var12, 'You\'ve requested\nmoney from')
+not_run: Mobile.verifyEqual(var12, 'You\'ve requested\nmoney from')
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - RM 1.02'), 0)
 
@@ -315,9 +346,7 @@ Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widg
 var13 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Request  successful'), 
     0)
 
-Mobile.verifyEqual(var13, 'Request  successful')
-
-Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/137.png', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.verifyEqual(var13, 'Request successful')
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Date  Time'), 0)
 
@@ -328,6 +357,8 @@ Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Fadhli  Maybank (3)'), 
     0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/137.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 var14 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Contact'), 0)
 
@@ -430,10 +461,10 @@ Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widg
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/142.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-var22 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Reminder sent failed.'), 
+not_run: var22 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Reminder sent failed.'), 
     0)
 
-Mobile.verifyEqual(var22, 'Reminder sent failed.')
+not_run: Mobile.verifyEqual(var22, 'Reminder sent failed.')
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Send  Request (4)'), 
     0)
@@ -484,10 +515,10 @@ Mobile.verifyEqual(var24, 'Completed')
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/144.png', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Youve sent RM 1.25 to erwrwer.'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Youve sent RM 1.25 to erwrwer.'), 
     0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Created 2 May 2020 0746 AM'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Created 2 May 2020 0746 AM'), 
     0)
 
 var25 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Completed'), 
@@ -513,7 +544,8 @@ Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Completed (1)'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Notes (1)'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Notes (1)'), 
+    0)
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - ANY amt'), 0)
 
@@ -523,7 +555,7 @@ Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.
 
 Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Date  Time (1)'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 2 May 2020 0747 AM'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - 2 May 2020 0747 AM'), 
     0)
 
 var26 = Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Remove From List'), 
@@ -533,7 +565,7 @@ Mobile.verifyEqual(var26, 'Remove From List')
 
 Mobile.tap(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Remove From List'), 0)
 
-Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Youve deleted  the request'), 
+not_run: Mobile.getText(findTestObject('MAYA Drop 2/SendRequestMoney-Validations/android.widget.TextView0 - Youve deleted  the request'), 
     0)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/sendRequestMoney/146.png', FailureHandling.CONTINUE_ON_FAILURE)

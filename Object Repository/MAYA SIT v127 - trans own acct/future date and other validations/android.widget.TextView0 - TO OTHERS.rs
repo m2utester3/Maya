@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - TO OTHERS</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'OTHERS' or . = 'OTHERS')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>TO OTHERS</value>
+      <value>OTHERS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

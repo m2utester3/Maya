@@ -15,11 +15,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', false)
+Mobile.startApplication('/Users/mosaj/katalon/APK/app-uat-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
 def width = Mobile.getDeviceWidth()
+
+'quick actions- Transfer'
+Mobile.getText(findTestObject('MAYA SIT v127 - trans own acct/android.widget.TextView0 - Transfer'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/1.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.ImageView0'), 0)
 
@@ -28,6 +33,8 @@ Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - 5'), 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - 5'), 0)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - 5'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/2.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - 5'), 0)
 
@@ -57,20 +64,30 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - P
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Split Bill'), 0)
 
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Send  Request'), 0)
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/3.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Send  Request'), 0)
+
+WebUI.delay(3)
 
 'vertical swipe'
-Mobile.swipe(490, 1440, 490, 770)
+Mobile.swipe(500, 1500, 500, 1200)
+
+WebUI.delay(3)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Spending Summary'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - View All'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/4.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - View All'), 0)
+
+Mobile.tap(findTestObject('MAYA Wallet spending/spy/UAT - Wallet SELECT JUNE - parent'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Spent So Far'), 0)
 
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - RM 0.00'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - RM 0.00'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Expenses'), 0)
 
@@ -78,7 +95,9 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - C
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Merchants'), 0)
 
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - No Transactions Yet'), 0)
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/5.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
+
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - No Transactions Yet'), 0)
 
 'vertical swipe'
 Mobile.swipe(490, 1440, 490, 770)
@@ -96,12 +115,18 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - C
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Contact Bank'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/6.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Hide Balance on Dashboard'), 0)
 
 'back button to go main screen'
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.ImageView0 (3)'), 0)
 
+Mobile.tap(findTestObject('MAYA Wallet spending/spy/UAT - Wallet - HOME'), 0)
+
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - RM '), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/7.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.ImageView0'), 0)
 
@@ -113,6 +138,8 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - C
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Call Now'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/8.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Call Now'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.Button0 - CANCEL'), 0)
@@ -121,10 +148,16 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.Button0 - CAL
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - 1300886688'), 0)
 
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/9.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.Button0 - CANCEL'), 0)
 
 '3 dots'
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.ImageView0 (2)'), 0)
+
+WebUI.delay(2)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/10.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Change Wallet Account'), 0)
 
@@ -132,8 +165,6 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - C
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - This account will be used for all activities related to Wallet on the app.'), 
     0)
-
-Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - MAE'), 0)
 
 not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Savings Account-i'), 0)
 
@@ -143,11 +174,15 @@ not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.Text
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - MAE'), 0)
 
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - 514712001309'), 0)
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - 514712001309'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - RM 1022.77'), 0)
 
+Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - MAE'), 0)
+
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Confirm'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/11.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Confirm'), 0)
 
@@ -155,33 +190,53 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - V
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - View Transactions'), 0)
 
+WebUI.delay(3)
+
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Transactions'), 0)
 
-Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.ImageView0 (4)'), 0)
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/12.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Transfer (1)'), 0)
+Mobile.tap(findTestObject('MAYA Wallet spending/spy/UAT - wallet CROSS child'), 0)
 
-Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Transfer (1)'), 0)
+WebUI.delay(3)
 
-Mobile.hideKeyboard()
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Transfer (1)'), 0)
+
+not_run: WebUI.delay(3)
+
+not_run: Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Transfer (1)'), 0)
+
+not_run: Mobile.hideKeyboard()
+
+not_run: Mobile.setText(findTestObject('MAYA Wallet spending/android.widget.EditText0'), 'pass1234', 0)
+
+not_run: Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.EditText0 - '), 0)
+
+not_run: Mobile.tapAtPosition(width * 0.91018, height * 0.09166)
+
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Transfer (2)'), 0)
+
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - TO OWN'), 0)
+
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - TO OTHERS'), 0)
+
+not_run: Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - DUITNOW'), 0)
+
+WebUI.delay(3)
+
+not_run: Mobile.tap(findTestObject('MAYA Wallet spending/spy/UAT - Wallet BACK btn from TRNS'), 0)
+
+Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Pay Bills (1)'), 0)
+
+Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Pay Bills (1)'), 0)
 
 Mobile.setText(findTestObject('MAYA Wallet spending/android.widget.EditText0'), 'pass1234', 0)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.EditText0 - '), 0)
 
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Transfer (2)'), 0)
+Mobile.tapAtPosition(width * 0.90740, height * 0.94791)
 
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - TO OWN'), 0)
-
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - TO OTHERS'), 0)
-
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - DUITNOW'), 0)
-
-Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.ImageView0 (1)'), 0)
-
-Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Pay Bills (1)'), 0)
-
-Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Pay Bills (1)'), 0)
+WebUI.delay(5)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Pay Bills (2)'), 0)
 
@@ -207,14 +262,24 @@ Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - P
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Split Bill (1)'), 0)
 
+WebUI.delay(5)
+
 'horizontal swipe'
-Mobile.swipe(890, 1000, 1000, 1375)
+Mobile.swipe(890, 1500, 200, 1500)
+
+WebUI.delay(5)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/13.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Movie Tickets'), 0)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Movie Tickets'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/android.widget.TextView0 - Movie Tickets (1)'), 0)
+
+WebUI.delay(5)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/14.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/android.widget.ImageView0 (6)'), 0)
 
@@ -225,6 +290,8 @@ Mobile.tap(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.Tex
 Mobile.tap(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.ImageView0'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.TextView0 - Bus Tickets'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/15.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.TextView0 - Bus Tickets'), 0)
 
@@ -237,6 +304,8 @@ Mobile.getText(findTestObject('MAYA Wallet spending/wallet part 2/android.widget
 Mobile.tap(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.TextView0 - ERL Tickets'), 0)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.TextView0 - KLIA Ekspres'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/16.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.getText(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.TextView0 - TICKETS'), 0)
 
@@ -262,6 +331,12 @@ Mobile.tap(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.Ima
 Mobile.tap(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.TextView0 - Show Balance on Dashboard'), 0)
 
 Mobile.tap(findTestObject('MAYA Wallet spending/wallet part 2/android.widget.ImageView0 (4)'), 0)
+
+Mobile.tap(findTestObject('MAYA Wallet spending/spy/UAT - Wallet - HOME'), 0)
+
+Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/wallet/17.jpeg', FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(1)
 
 not_run: Mobile.closeApplication()
 

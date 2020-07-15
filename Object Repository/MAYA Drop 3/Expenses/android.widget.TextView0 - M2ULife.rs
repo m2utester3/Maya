@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - M2ULife</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'Validation Error' or . = 'Validation Error')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>M2ULife</value>
+      <value>Validation Error</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

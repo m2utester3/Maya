@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - Reference 2</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (contains(text(), 'Reference 2 (Optional)') or contains(., 'Reference 2 (Optional)'))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,10 +21,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Reference 2</value>
+      <value>Reference 2 (Optional)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

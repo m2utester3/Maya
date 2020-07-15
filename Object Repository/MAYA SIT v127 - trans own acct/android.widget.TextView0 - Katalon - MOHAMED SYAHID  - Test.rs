@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - Katalon - MOHAMED SYAHID  - Test</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'pay dtl' or . = 'pay dtl')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,10 +21,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Katalon - MOHAMED SYAHID * - Test</value>
+      <value>pay dtl</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
