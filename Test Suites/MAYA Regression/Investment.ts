@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>JomPay - M2U</name>
+   <name>Investment</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeout>45</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ec584b81-e5bc-4203-86ef-db73886846f9</testSuiteGuid>
+   <testSuiteGuid>f263e815-30ee-4f38-be7b-a81dcd1d9ac8</testSuiteGuid>
    <testCaseLink>
-      <guid>8330d349-5282-4e82-8ee2-29059792a6f8</guid>
+      <guid>d70be74c-bcf2-4098-8ee8-9a759a2f2ad9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MAYA SIT Drop 2/PayBIlls-Biller</testCaseId>
+      <testCaseId>Test Cases/MAYA SIT Drop 1/Banking - INVESTMENTS</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

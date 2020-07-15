@@ -14,6 +14,6 @@
       <guid>4960c54f-085c-4787-8761-b546bc2249f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MAYA SIT Drop 2/Forgot M2U Details</testCaseId>
+      <testCaseId>Test Cases/MAYA SIT Drop 2/Forgot M2U Details - mobile to web flow</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

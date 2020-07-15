@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>JomPay - M2U</name>
+   <name>request money validations</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeout>45</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ec584b81-e5bc-4203-86ef-db73886846f9</testSuiteGuid>
+   <testSuiteGuid>3e49de06-37bd-4549-9db9-69c5ec5dd2a7</testSuiteGuid>
    <testCaseLink>
-      <guid>8330d349-5282-4e82-8ee2-29059792a6f8</guid>
+      <guid>0b9bf106-a1b2-439c-b857-ef718cfd8c95</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MAYA SIT Drop 2/PayBIlls-Biller</testCaseId>
+      <testCaseId>Test Cases/MAYA SIT Drop 2/SendRequestMoney - Validations</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -14,6 +14,6 @@
       <guid>1e740069-68ef-44f4-898b-b16cdf4ff55d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MAYA SIT Drop 2/PayBills-JomPay-from QuickActions</testCaseId>
+      <testCaseId>Test Cases/MAYA SIT Drop 2/PayBills-JomPay</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

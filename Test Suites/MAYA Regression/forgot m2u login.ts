@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>JomPay - M2U</name>
+   <name>forgot m2u login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeout>45</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>ec584b81-e5bc-4203-86ef-db73886846f9</testSuiteGuid>
+   <testSuiteGuid>e98aeb1d-086d-43b0-8982-9e717c202812</testSuiteGuid>
    <testCaseLink>
-      <guid>8330d349-5282-4e82-8ee2-29059792a6f8</guid>
+      <guid>652b825b-9131-4c0e-ac11-c66ff6745368</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MAYA SIT Drop 2/PayBIlls-Biller</testCaseId>
+      <testCaseId>Test Cases/MAYA SIT Drop 2/Forgot M2U login</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
