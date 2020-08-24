@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UAT Test Suite" time="99.753" tests="1" failures="0" errors="1">
+   <testsuite name="UAT Test Suite" tests="1" failures="0" errors="1" time="99.753" timestamp="2020-08-04 21:10:43" hostname="LENOVO - DESKTOP-CP3TV4N" id="Test Suites/Maya UAT/UAT Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200804_211040\\Maya UAT\\UAT Test Suite\\20200804_211040"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200804_211040\\Maya UAT\\UAT Test Suite\\20200804_211040\\appium.log, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200804_211040\\Maya UAT\\UAT Test Suite\\20200804_211040\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen18.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-CP3TV4N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.2.7.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Redmi Note 7S"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="11cb9864"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/JINU/One Tap Authorisation/One Tap" time="95.472" classname="Test Cases/JINU/One Tap Authorisation/One Tap" status="ERROR">
+         <error type="ERROR" message="Test Cases/JINU/One Tap Authorisation/One Tap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: driver for class: Script1592810930764
+	at One Tap.run(One Tap:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596546640469.run(TempTestSuite1596546640469.groovy:36)
+"/>
+         <system-out><![CDATA[2020-08-04 21:10:44 - [TEST_CASE][ERROR] - Test Cases/JINU/One Tap Authorisation/One Tap: Test Cases/JINU/One Tap Authorisation/One Tap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: driver for class: Script1592810930764
+	at One Tap.run(One Tap:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596546640469.run(TempTestSuite1596546640469.groovy:36)
+
+
+2020-08-04 21:10:45 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk", true): Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-04 21:10:45 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2020-08-04 21:10:45 - [MESSAGE][INFO] - User set preference: ['appWaitPackage', 'com.maybank2u.life.uat']
+
+2020-08-04 21:10:45 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '50,000']
+
+2020-08-04 21:10:45 - [MESSAGE][INFO] - User set preference: ['deviceId', '11cb9864']
+
+2020-08-04 21:10:48 - [MESSAGE][INFO] - Appium server started on port 49,615
+
+2020-08-04 21:11:53 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-04 21:11:53 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-08-04 21:11:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-04 21:11:58 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/android.widget.TextView0 - Next"), 0): Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-04 21:11:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-04 21:12:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-04 21:12:01 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/android.widget.TextView0 - Next"), 0): Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-04 21:12:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-04 21:12:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-04 21:12:03 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/android.widget.TextView0 - Next"), 0): Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-04 21:12:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-04 21:12:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-04 21:12:07 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Login/android.widget.Button0-Maybank2u"), 0): Tapped on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u'
+
+2020-08-04 21:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-04 21:12:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u'
+
+2020-08-04 21:12:09 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\OneTap\Screen18.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-04 21:12:12 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen18.png]]
+
+2020-08-04 21:12:12 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Login/android.widget.TextView0 - Login to Maybank2u"), 0): Tapped on element 'Object Repository/Maya/Login/android.widget.TextView0 - Login to Maybank2u'
+
+2020-08-04 21:12:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-04 21:12:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Login/android.widget.TextView0 - Login to Maybank2u'
+
+2020-08-04 21:12:15 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/android.widget.EditText0"), 0): Tapped on element 'Object Repository/Maya/login again/android.widget.EditText0'
+
+2020-08-04 21:12:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-04 21:12:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/android.widget.EditText0'
+
+2020-08-04 21:12:17 - [TEST_STEP][PASSED] - setText(findTestObject("Maya/login again/android.widget.EditText0"), "nurulhidayu01", 0): Text 'nurulhidayu01' has been set to element 'Object Repository/Maya/login again/android.widget.EditText0'
+
+2020-08-04 21:12:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-04 21:12:19 - [MESSAGE][PASSED] - Text 'nurulhidayu01' has been set to element 'Object Repository/Maya/login again/android.widget.EditText0'
+
+2020-08-04 21:12:19 - [TEST_STEP][PASSED] - driver.pressKeyCode(ENTER): null]]></system-out>
+         <system-err><![CDATA[2020-08-04 21:10:44 - [TEST_CASE][ERROR] - Test Cases/JINU/One Tap Authorisation/One Tap: Test Cases/JINU/One Tap Authorisation/One Tap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: driver for class: Script1592810930764
+	at One Tap.run(One Tap:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596546640469.run(TempTestSuite1596546640469.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-04 21:10:43 - [TEST_SUITE][ERROR] - UAT Test Suite: Test Cases/JINU/One Tap Authorisation/One Tap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: driver for class: Script1592810930764
+	at One Tap.run(One Tap:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596546640469.run(TempTestSuite1596546640469.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-08-04 21:10:43 - [TEST_SUITE][ERROR] - UAT Test Suite: Test Cases/JINU/One Tap Authorisation/One Tap FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: driver for class: Script1592810930764
+	at One Tap.run(One Tap:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596546640469.run(TempTestSuite1596546640469.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-06T16:54:55</date>
+  <millis>1596704095629</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Maya UAT/UAT Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">UAT Test Suite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Maya UAT/UAT Test Suite</property>
+</record>
+<record>
+  <date>2020-08-06T16:54:55</date>
+  <millis>1596704095658</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = LENOVO - DESKTOP-CP3TV4N</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">LENOVO - DESKTOP-CP3TV4N</property>
+</record>
+<record>
+  <date>2020-08-06T16:54:55</date>
+  <millis>1596704095659</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-08-06T16:54:55</date>
+  <millis>1596704095660</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.43.112</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.43.112</property>
+</record>
+<record>
+  <date>2020-08-06T16:54:55</date>
+  <millis>1596704095661</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.2.7.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.2.7.1</property>
+</record>
+<record>
+  <date>2020-08-06T16:54:55</date>
+  <millis>1596704095975</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/JINU/DuiTNow Drop 2/Nric Proxy</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/JINU/DuiTNow Drop 2/Nric Proxy</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/JINU/DuiTNow Drop 2/Nric Proxy</property>
+  <property name="source">C:\\Users\\LENOVO\\Git_new\\Maya\\Test Cases\\JINU\\DuiTNow Drop 2\\Nric Proxy.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-06T16:54:56</date>
+  <millis>1596704096793</millis>
+  <sequence>8</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/JINU/DuiTNow Drop 2/Nric Proxy FAILED.\nReason:\norg.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 850: The current scope already contains a variable of the name otpMess\n @ line 850, column 5.\r\n   def otpMess = Mobile.getText(findTestObject(&amp;apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&amp;apos;),\r\n       ^\r\n\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 953: The current scope already contains a variable of the name otp\n @ line 953, column 5.\r\n   def otp = Mobile.getText(findTestObject(&amp;apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&amp;apos;), \r\n       ^\r\n\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 1089: The current scope already contains a variable of the name otpM\n @ line 1089, column 5.\r\n   def otpM = Mobile.getText(findTestObject(&amp;apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&amp;apos;), \r\n       ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1596704092905.run(TempTestSuite1596704092905.groovy:36)\r\n</message>
+  <exception>
+    <message>org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 850: The current scope already contains a variable of the name otpMess
+ @ line 850, column 5.
+   def otpMess = Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943'),
+       ^
+
+file:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 953: The current scope already contains a variable of the name otp
+ @ line 953, column 5.
+   def otp = Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943'), 
+       ^
+
+file:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 1089: The current scope already contains a variable of the name otpM
+ @ line 1089, column 5.
+   def otpM = Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943'), 
+       ^
+
+3 errors
+</message>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>getScript</method>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>337</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>328</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>307</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>233</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1596704092905</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 850: The current scope already contains a variable of the name otpMess\n @ line 850, column 5.\r\n   def otpMess = Mobile.getText(findTestObject(&apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&apos;),\r\n       ^\r\n\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 953: The current scope already contains a variable of the name otp\n @ line 953, column 5.\r\n   def otp = Mobile.getText(findTestObject(&apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&apos;), \r\n       ^\r\n\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 1089: The current scope already contains a variable of the name otpM\n @ line 1089, column 5.\r\n   def otpM = Mobile.getText(findTestObject(&apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&apos;), \r\n       ^\r\n\r\n3 errors\r\n\r\n\tat com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat TempTestSuite1596704092905.run(TempTestSuite1596704092905.groovy:36)\r\n</property>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.message">startup failed:\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 850: The current scope already contains a variable of the name otpMess\n @ line 850, column 5.\r\n   def otpMess = Mobile.getText(findTestObject(&apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&apos;),\r\n       ^\r\n\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 953: The current scope already contains a variable of the name otp\n @ line 953, column 5.\r\n   def otp = Mobile.getText(findTestObject(&apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&apos;), \r\n       ^\r\n\r\nfile:/C:/Users/LENOVO/Git_new/Maya/Scripts/JINU/DuiTNow%20Drop%202/Nric%20Proxy/Script1594559259248.groovy: 1089: The current scope already contains a variable of the name otpM\n @ line 1089, column 5.\r\n   def otpM = Mobile.getText(findTestObject(&apos;Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943&apos;), \r\n       ^\r\n\r\n3 errors\r\n</property>
+</record>
+<record>
+  <date>2020-08-06T16:54:56</date>
+  <millis>1596704096804</millis>
+  <sequence>10</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/JINU/DuiTNow Drop 2/Nric Proxy</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-06T16:54:56</date>
+  <millis>1596704096807</millis>
+  <sequence>11</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-06T16:54:56</date>
+  <millis>1596704096998</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200806_165452\\Maya UAT\\UAT Test Suite\\20200806_165452...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-06T16:54:57</date>
+  <millis>1596704097015</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-06T16:54:57</date>
+  <millis>1596704097015</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200806_165452\\Maya UAT\\UAT Test Suite\\20200806_165452...</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-06T16:54:57</date>
+  <millis>1596704097026</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-06T16:54:57</date>
+  <millis>1596704097026</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-06T16:54:57</date>
+  <millis>1596704097071</millis>
+  <sequence>37</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Maya UAT/UAT Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

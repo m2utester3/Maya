@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UAT Test Suite" time="65.552" tests="1" failures="0" errors="1">
+   <testsuite name="UAT Test Suite" tests="1" failures="0" errors="1" time="65.552" timestamp="2020-08-05 22:17:59" hostname="LENOVO - DESKTOP-CP3TV4N" id="Test Suites/Maya UAT/UAT Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200805_221756\\Maya UAT\\UAT Test Suite\\20200805_221756"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200805_221756\\Maya UAT\\UAT Test Suite\\20200805_221756\\appium.log, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200805_221756\\Maya UAT\\UAT Test Suite\\20200805_221756\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-CP3TV4N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.2.7.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Redmi Note 7S"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="11cb9864"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/JINU/Bus Ticket/Bus Ticket 2" time="63.933" classname="Test Cases/JINU/Bus Ticket/Bus Ticket 2" status="ERROR">
+         <error type="ERROR" message="Test Cases/JINU/Bus Ticket/Bus Ticket 2 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: &quot;9851526020&quot;
+	at Bus Ticket 2.run(Bus Ticket 2:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596637076870.run(TempTestSuite1596637076870.groovy:36)
+"/>
+         <system-out><![CDATA[2020-08-05 22:18:00 - [TEST_CASE][ERROR] - Test Cases/JINU/Bus Ticket/Bus Ticket 2: Test Cases/JINU/Bus Ticket/Bus Ticket 2 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "9851526020"
+	at Bus Ticket 2.run(Bus Ticket 2:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596637076870.run(TempTestSuite1596637076870.groovy:36)
+
+
+2020-08-05 22:18:01 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk", false): Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-05 22:18:01 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2020-08-05 22:18:01 - [MESSAGE][INFO] - User set preference: ['appWaitPackage', 'com.maybank2u.life.uat']
+
+2020-08-05 22:18:01 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '50,000']
+
+2020-08-05 22:18:01 - [MESSAGE][INFO] - User set preference: ['deviceId', '11cb9864']
+
+2020-08-05 22:18:04 - [MESSAGE][INFO] - Appium server started on port 58,231
+
+2020-08-05 22:18:29 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-05 22:18:29 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.ImageView0"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.ImageView0'
+
+2020-08-05 22:18:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:18:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.ImageView0'
+
+2020-08-05 22:18:41 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.TextView0 - 2"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 2'
+
+2020-08-05 22:18:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:18:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 2'
+
+2020-08-05 22:18:46 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.TextView0 - 3"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 3'
+
+2020-08-05 22:18:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:18:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 3'
+
+2020-08-05 22:18:50 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.TextView0 - 0"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 0'
+
+2020-08-05 22:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:18:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 0'
+
+2020-08-05 22:18:52 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.TextView0 - 9"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 9'
+
+2020-08-05 22:18:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:18:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 9'
+
+2020-08-05 22:18:54 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.TextView0 - 8"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 8'
+
+2020-08-05 22:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:18:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 8'
+
+2020-08-05 22:18:56 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.TextView0 - 3"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 3'
+
+2020-08-05 22:18:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:18:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.TextView0 - 3'
+
+2020-08-05 22:18:57 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/DuitnowRegT/android.widget.ImageView0 (1)"), 0): Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.ImageView0 (1)'
+
+2020-08-05 22:18:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:19:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/DuitnowRegT/android.widget.ImageView0 (1)'
+
+2020-08-05 22:19:00 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance"), 0): Text of element 'Object Repository/Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance' is: 'RM 98,515,260.20'
+
+2020-08-05 22:19:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:19:02 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance' is: 'RM 98,515,260.20'
+
+2020-08-05 22:19:02 - [TEST_STEP][PASSED] - trx6 = 85-Current balance"), 0).substring(3): Text of element 'Object Repository/Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance' is: 'RM 98,515,260.20'
+
+2020-08-05 22:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-05 22:19:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance' is: 'RM 98,515,260.20'
+
+2020-08-05 22:19:03 - [TEST_STEP][PASSED] - trx61 = trx6.replaceAll("[^a-zA-Z0-9]+", ""): null
+
+2020-08-05 22:19:04 - [TEST_STEP][PASSED] - out.println(trx61): null
+
+2020-08-05 22:19:04 - [TEST_STEP][PASSED] - trx611 = trx61: null]]></system-out>
+         <system-err><![CDATA[2020-08-05 22:18:00 - [TEST_CASE][ERROR] - Test Cases/JINU/Bus Ticket/Bus Ticket 2: Test Cases/JINU/Bus Ticket/Bus Ticket 2 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "9851526020"
+	at Bus Ticket 2.run(Bus Ticket 2:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596637076870.run(TempTestSuite1596637076870.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-05 22:17:59 - [TEST_SUITE][ERROR] - UAT Test Suite: Test Cases/JINU/Bus Ticket/Bus Ticket 2 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "9851526020"
+	at Bus Ticket 2.run(Bus Ticket 2:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596637076870.run(TempTestSuite1596637076870.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-08-05 22:17:59 - [TEST_SUITE][ERROR] - UAT Test Suite: Test Cases/JINU/Bus Ticket/Bus Ticket 2 FAILED.
+Reason:
+java.lang.NumberFormatException: For input string: "9851526020"
+	at Bus Ticket 2.run(Bus Ticket 2:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1596637076870.run(TempTestSuite1596637076870.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

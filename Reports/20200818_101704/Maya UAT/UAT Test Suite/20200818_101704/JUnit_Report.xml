@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UAT Test Suite" time="341.382" tests="1" failures="1" errors="0">
+   <testsuite name="UAT Test Suite" tests="1" failures="1" errors="0" time="341.382" timestamp="2020-08-18 10:17:07" hostname="LENOVO - DESKTOP-CP3TV4N" id="Test Suites/Maya UAT/UAT Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\appium.log, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot1, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot2, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot3, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot4, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot5, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot6, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot8, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717197193.png, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717211447.png, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot13, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717258598.png, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717283359.png, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot9, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717297761.png, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717313981.png, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot19, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot11, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot12, C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot13"/>
+         <property name="hostName" value="LENOVO - DESKTOP-CP3TV4N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.2.7.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Redmi Note 7S"/>
+         <property name="hostAddress" value="192.168.43.112"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="11cb9864"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/JINU/Drop2 Promotions/Promotion" time="334.678" classname="Test Cases/JINU/Drop2 Promotions/Promotion" status="FAILED">
+         <failure type="FAILED" message="Test Cases/JINU/Drop2 Promotions/Promotion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share (1) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at Promotion.run(Promotion:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597717024419.run(TempTestSuite1597717024419.groovy:36)
+"/>
+         <system-out><![CDATA[2020-08-18 10:17:07 - [TEST_CASE][FAILED] - Test Cases/JINU/Drop2 Promotions/Promotion: Test Cases/JINU/Drop2 Promotions/Promotion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share (1) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at Promotion.run(Promotion:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597717024419.run(TempTestSuite1597717024419.groovy:36)
+
+
+2020-08-18 10:17:08 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk", false): Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-18 10:17:08 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2020-08-18 10:17:08 - [MESSAGE][INFO] - User set preference: ['appWaitPackage', 'com.maybank2u.life.uat']
+
+2020-08-18 10:17:08 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '50,000']
+
+2020-08-18 10:17:08 - [MESSAGE][INFO] - User set preference: ['deviceId', '11cb9864']
+
+2020-08-18 10:17:16 - [MESSAGE][INFO] - Appium server started on port 49,997
+
+2020-08-18 10:17:42 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-18 10:17:42 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - More (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - More (1)' is: 'More'
+
+2020-08-18 10:17:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:17:54 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - More (1)' is: 'More'
+
+2020-08-18 10:17:54 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:17:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:17:56 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot1", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:17:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot1]]
+
+2020-08-18 10:17:58 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - More (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - More (1)'
+
+2020-08-18 10:17:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - More (1)'
+
+2020-08-18 10:18:11 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:18:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:18:13 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot2", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:18:14 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot2]]
+
+2020-08-18 10:18:14 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Promotions (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Promotions (1)'
+
+2020-08-18 10:18:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Promotions (1)'
+
+2020-08-18 10:18:17 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Featured"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Featured' is: 'Featured'
+
+2020-08-18 10:18:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Featured' is: 'Featured'
+
+2020-08-18 10:18:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Promotions/android.widget.TextView0 - Featured"), 0): Element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Featured' is exist
+
+2020-08-18 10:18:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:18 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Featured' is exist
+
+2020-08-18 10:18:18 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:18:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:18:20 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot3", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:18:22 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot3]]
+
+2020-08-18 10:18:22 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (8)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (8)'
+
+2020-08-18 10:18:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (8)'
+
+2020-08-18 10:18:23 - [TEST_STEP][PASSED] - delay(5, CONTINUE_ON_FAILURE): Delayed 5 second(s)
+
+2020-08-18 10:18:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 10:18:28 - [TEST_STEP][PASSED] - setText(findTestObject("Maya/Promotions/android.widget.EditText0 - Type to search (1)"), "Test", 0): Text 'Test' has been set to element 'Object Repository/Maya/Promotions/android.widget.EditText0 - Type to search (1)'
+
+2020-08-18 10:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:30 - [MESSAGE][PASSED] - Text 'Test' has been set to element 'Object Repository/Maya/Promotions/android.widget.EditText0 - Type to search (1)'
+
+2020-08-18 10:18:30 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:18:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:18:32 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot4", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:18:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot4]]
+
+2020-08-18 10:18:33 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (9)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:18:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:18:34 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Sort  Filter"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Sort  Filter' is: 'Sort & Filter'
+
+2020-08-18 10:18:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:36 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Sort  Filter' is: 'Sort & Filter'
+
+2020-08-18 10:18:36 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Sort by (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Sort by (1)' is: 'Sort by'
+
+2020-08-18 10:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:36 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Sort by (1)' is: 'Sort by'
+
+2020-08-18 10:18:36 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Popularity (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Popularity (1)' is: 'Popularity'
+
+2020-08-18 10:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Popularity (1)' is: 'Popularity'
+
+2020-08-18 10:18:37 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Latest (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Latest (1)' is: 'Latest'
+
+2020-08-18 10:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Latest (1)' is: 'Latest'
+
+2020-08-18 10:18:38 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Oldest (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Oldest (1)' is: 'Oldest'
+
+2020-08-18 10:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Oldest (1)' is: 'Oldest'
+
+2020-08-18 10:18:38 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Filter by"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Filter by' is: 'Filter by'
+
+2020-08-18 10:18:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Filter by' is: 'Filter by'
+
+2020-08-18 10:18:39 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:18:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:18:41 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot5", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:18:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot5]]
+
+2020-08-18 10:18:42 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Categories"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Categories' is: 'Categories'
+
+2020-08-18 10:18:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Categories' is: 'Categories'
+
+2020-08-18 10:18:42 - [TEST_STEP][PASSED] - delay(4, CONTINUE_ON_FAILURE): Delayed 4 second(s)
+
+2020-08-18 10:18:46 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-08-18 10:18:46 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (10)"), 0): NOT_RUN: tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (10)"), 0)
+
+2020-08-18 10:18:46 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (10)"), 0)
+
+2020-08-18 10:18:46 - [TEST_STEP][NOT_RUN] - delay(4, CONTINUE_ON_FAILURE): NOT_RUN: delay(4, CONTINUE_ON_FAILURE)
+
+2020-08-18 10:18:46 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(4, CONTINUE_ON_FAILURE)
+
+2020-08-18 10:18:46 - [TEST_STEP][NOT_RUN] - swipe(592, 1887, 550, 1754): NOT_RUN: swipe(592, 1887, 550, 1754)
+
+2020-08-18 10:18:46 - [MESSAGE][NOT_RUN] - NOT_RUN: swipe(592, 1887, 550, 1754)
+
+2020-08-18 10:18:46 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Done (1)"), 0): NOT_RUN: tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Done (1)"), 0)
+
+2020-08-18 10:18:46 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Done (1)"), 0)
+
+2020-08-18 10:18:46 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (11)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (11)'
+
+2020-08-18 10:18:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (11)'
+
+2020-08-18 10:18:47 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Apply Filter (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Apply Filter (1)'
+
+2020-08-18 10:18:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Apply Filter (1)'
+
+2020-08-18 10:18:49 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:18:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:18:51 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot6", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:18:53 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot6]]
+
+2020-08-18 10:18:53 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (9)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:18:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:18:54 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (10)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (10)'
+
+2020-08-18 10:18:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:18:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (10)'
+
+2020-08-18 10:18:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-18 10:19:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 10:19:01 - [TEST_STEP][PASSED] - swipe(592, 1887, 550, 1754): Swiped from 592,1,887 to 550,1,754
+
+2020-08-18 10:19:02 - [MESSAGE][PASSED] - Swiped from 592,1,887 to 550,1,754
+
+2020-08-18 10:19:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-18 10:19:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 10:19:07 - [TEST_STEP][PASSED] - swipe(592, 1887, 550, 1754): Swiped from 592,1,887 to 550,1,754
+
+2020-08-18 10:19:08 - [MESSAGE][PASSED] - Swiped from 592,1,887 to 550,1,754
+
+2020-08-18 10:19:08 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Done (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Done (1)'
+
+2020-08-18 10:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Done (1)'
+
+2020-08-18 10:19:10 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Apply Filter (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Apply Filter (1)'
+
+2020-08-18 10:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Apply Filter (1)'
+
+2020-08-18 10:19:12 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (9)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:19:12 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Clear (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Clear (1)'
+
+2020-08-18 10:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Clear (1)'
+
+2020-08-18 10:19:15 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (9)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (9)'
+
+2020-08-18 10:19:16 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:19:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:19:18 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot8", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:19:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot8]]
+
+2020-08-18 10:19:19 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (12)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (12)'
+
+2020-08-18 10:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (12)'
+
+2020-08-18 10:19:20 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (20)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (20)'
+
+2020-08-18 10:19:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (20)'
+
+2020-08-18 10:19:22 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - View More"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - View More'
+
+2020-08-18 10:19:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - View More'
+
+2020-08-18 10:19:26 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:19:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:19:28 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(74, 150, 1): Tapped and held at [74, 150] with duration 1
+
+2020-08-18 10:19:31 - [MESSAGE][PASSED] - Tapped and held at [74, 150] with duration 1
+
+2020-08-18 10:19:31 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:19:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:19:33 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(975, 177, 1): Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:19:36 - [MESSAGE][PASSED] - Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:19:36 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:19:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:19:38 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Not Interested in This (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Not Interested in This (1)'
+
+2020-08-18 10:19:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Not Interested in This (1)'
+
+2020-08-18 10:19:39 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:19:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:19:41 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(975, 177, 1): Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:19:44 - [MESSAGE][PASSED] - Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:19:44 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:19:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:19:46 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Share (1)"), 0): Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share (1) not found
+
+2020-08-18 10:19:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:19:59 - [MESSAGE][FAILED] - Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share (1) not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717197193.png]]
+
+2020-08-18 10:19:59 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:20:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:20:01 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Promotions/android.widget.Button0 - Cancel (1)"), 0): Object Object Repository/Maya/Promotions/android.widget.Button0 - Cancel (1) not found
+
+2020-08-18 10:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:20:12 - [MESSAGE][FAILED] - Object Object Repository/Maya/Promotions/android.widget.Button0 - Cancel (1) not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717211447.png]]
+
+2020-08-18 10:20:12 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:20:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:20:14 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(88, 172, 1): Tapped and held at [88, 172] with duration 1
+
+2020-08-18 10:20:17 - [MESSAGE][PASSED] - Tapped and held at [88, 172] with duration 1
+
+2020-08-18 10:20:17 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot13", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:20:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot13]]
+
+2020-08-18 10:20:18 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:20:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:20:20 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(88, 172, 1): Tapped and held at [88, 172] with duration 1
+
+2020-08-18 10:20:23 - [MESSAGE][PASSED] - Tapped and held at [88, 172] with duration 1
+
+2020-08-18 10:20:23 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/KLIA/android.widget.TextView0 - Home"), 0): Tapped on element 'Object Repository/Maya/KLIA/android.widget.TextView0 - Home'
+
+2020-08-18 10:20:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:20:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/KLIA/android.widget.TextView0 - Home'
+
+2020-08-18 10:20:36 - [TEST_STEP][PASSED] - swipe(833, 1354, 100, 700): Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:37 - [MESSAGE][PASSED] - Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:37 - [TEST_STEP][PASSED] - swipe(833, 1354, 100, 700): Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:38 - [MESSAGE][PASSED] - Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:38 - [TEST_STEP][PASSED] - swipe(833, 1354, 100, 700): Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:39 - [MESSAGE][PASSED] - Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:39 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Deals For You"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Deals For You' is: 'Deals For You'
+
+2020-08-18 10:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:20:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Deals For You' is: 'Deals For You'
+
+2020-08-18 10:20:40 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - View All"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - View All' is: 'View All'
+
+2020-08-18 10:20:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:20:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - View All' is: 'View All'
+
+2020-08-18 10:20:41 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - View All"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - View All'
+
+2020-08-18 10:20:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:20:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - View All'
+
+2020-08-18 10:20:44 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Latest (2)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Latest (2)' is: 'Latest'
+
+2020-08-18 10:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:20:44 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Latest (2)' is: 'Latest'
+
+2020-08-18 10:20:44 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:20:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:20:46 - [TEST_STEP][PASSED] - swipe(833, 1354, 100, 700): Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:48 - [MESSAGE][PASSED] - Swiped from 833,1,354 to 100,700
+
+2020-08-18 10:20:48 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (21)"), 0): Object Object Repository/Maya/Promotions/android.widget.ImageView0 (21) not found
+
+2020-08-18 10:20:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:21:00 - [MESSAGE][FAILED] - Object Object Repository/Maya/Promotions/android.widget.ImageView0 (21) not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717258598.png]]
+
+2020-08-18 10:21:00 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Promo ends in (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Promo ends in (1)' is: 'Promo ends in'
+
+2020-08-18 10:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:21:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Promo ends in (1)' is: 'Promo ends in'
+
+2020-08-18 10:21:03 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Redeem now (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Redeem now (1)' is: 'Redeem now'
+
+2020-08-18 10:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:21:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Redeem now (1)' is: 'Redeem now'
+
+2020-08-18 10:21:04 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:21:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:21:06 - [TEST_STEP][PASSED] - swipe(592, 1887, 550, 500): Swiped from 592,1,887 to 550,500
+
+2020-08-18 10:21:07 - [MESSAGE][PASSED] - Swiped from 592,1,887 to 550,500
+
+2020-08-18 10:21:07 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Terms  Conditions"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Terms  Conditions' is: 'Terms & Conditions'
+
+2020-08-18 10:21:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:21:08 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Terms  Conditions' is: 'Terms & Conditions'
+
+2020-08-18 10:21:08 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(975, 177, 1): Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:21:11 - [MESSAGE][PASSED] - Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:21:11 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:21:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:21:13 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Share"), 0): Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share not found
+
+2020-08-18 10:21:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:21:24 - [MESSAGE][FAILED] - Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717283359.png]]
+
+2020-08-18 10:21:24 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:21:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:21:26 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot9", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:21:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot9]]
+
+2020-08-18 10:21:27 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Promotions/android.widget.Button0 - Cancel"), 0): Object Object Repository/Maya/Promotions/android.widget.Button0 - Cancel not found
+
+2020-08-18 10:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:21:38 - [MESSAGE][FAILED] - Object Object Repository/Maya/Promotions/android.widget.Button0 - Cancel not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717297761.png]]
+
+2020-08-18 10:21:38 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(975, 177, 1): Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:21:41 - [MESSAGE][PASSED] - Tapped and held at [975, 177] with duration 1
+
+2020-08-18 10:21:41 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:21:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:21:43 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Not Interested in This"), 0): Object Object Repository/Maya/Promotions/android.widget.TextView0 - Not Interested in This not found
+
+2020-08-18 10:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:21:55 - [MESSAGE][FAILED] - Object Object Repository/Maya/Promotions/android.widget.TextView0 - Not Interested in This not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_101704\\Maya UAT\\UAT Test Suite\\20200818_101704\\1597717313981.png]]
+
+2020-08-18 10:21:55 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:21:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:21:57 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot19", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:21:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot19]]
+
+2020-08-18 10:21:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-08-18 10:22:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-18 10:22:03 - [TEST_STEP][PASSED] - swipe(592, 1887, 550, 500): Swiped from 592,1,887 to 550,500
+
+2020-08-18 10:22:05 - [MESSAGE][PASSED] - Swiped from 592,1,887 to 550,500
+
+2020-08-18 10:22:05 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Terms  Conditions"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Terms  Conditions'
+
+2020-08-18 10:22:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Terms  Conditions'
+
+2020-08-18 10:22:07 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2020-08-18 10:22:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-08-18 10:22:17 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot11", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:22:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot11]]
+
+2020-08-18 10:22:19 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (15)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (15)'
+
+2020-08-18 10:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (15)'
+
+2020-08-18 10:22:21 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Redeem now (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Redeem now (1)'
+
+2020-08-18 10:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Redeem now (1)'
+
+2020-08-18 10:22:24 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Scan  Pay"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Scan  Pay' is: 'Scan & Pay'
+
+2020-08-18 10:22:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:25 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Scan  Pay' is: 'Scan & Pay'
+
+2020-08-18 10:22:25 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 10:22:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 10:22:27 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot12", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:22:28 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot12]]
+
+2020-08-18 10:22:28 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.ImageView0 (18)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (18)'
+
+2020-08-18 10:22:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.ImageView0 (18)'
+
+2020-08-18 10:22:29 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Save and Use Later"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Save and Use Later'
+
+2020-08-18 10:22:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Save and Use Later'
+
+2020-08-18 10:22:33 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Saved"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Saved' is: 'Saved'
+
+2020-08-18 10:22:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Saved' is: 'Saved'
+
+2020-08-18 10:22:33 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Promotions/android.widget.TextView0 - Saved (1)"), 0): Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Saved (1)'
+
+2020-08-18 10:22:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Saved (1)'
+
+2020-08-18 10:22:39 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Promotions/android.widget.TextView0 - Save and Use Later (1)"), 0): Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Save and Use Later (1)' is: 'Save and Use Later'
+
+2020-08-18 10:22:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 10:22:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Promotions/android.widget.TextView0 - Save and Use Later (1)' is: 'Save and Use Later'
+
+2020-08-18 10:22:40 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Promotions\Screenshot13", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 10:22:42 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Promotions\\Screenshot13]]]]></system-out>
+         <system-err><![CDATA[2020-08-18 10:17:07 - [TEST_CASE][FAILED] - Test Cases/JINU/Drop2 Promotions/Promotion: Test Cases/JINU/Drop2 Promotions/Promotion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share (1) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at Promotion.run(Promotion:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597717024419.run(TempTestSuite1597717024419.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-18 10:17:07 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/Drop2 Promotions/Promotion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share (1) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at Promotion.run(Promotion:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597717024419.run(TempTestSuite1597717024419.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-08-18 10:17:07 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/Drop2 Promotions/Promotion FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/Promotions/android.widget.TextView0 - Share (1) not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at Promotion.run(Promotion:143)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597717024419.run(TempTestSuite1597717024419.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

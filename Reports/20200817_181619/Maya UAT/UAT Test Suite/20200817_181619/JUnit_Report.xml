@@ -1,0 +1,1917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UAT Test Suite" time="515.389" tests="1" failures="1" errors="0">
+   <testsuite name="UAT Test Suite" tests="1" failures="1" errors="0" time="515.389" timestamp="2020-08-17 18:16:22" hostname="LENOVO - DESKTOP-CP3TV4N" id="Test Suites/Maya UAT/UAT Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_181619\\Maya UAT\\UAT Test Suite\\20200817_181619"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_181619\\Maya UAT\\UAT Test Suite\\20200817_181619\\appium.log, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_181619\\Maya UAT\\UAT Test Suite\\20200817_181619\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen4.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen5.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen8.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen9.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen10.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen11.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen12.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen13.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen14.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen15.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen6.png, C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen7.png, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_181619\\Maya UAT\\UAT Test Suite\\20200817_181619\\1597659862206.png, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_181619\\Maya UAT\\UAT Test Suite\\20200817_181619\\1597659873573.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-CP3TV4N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.2.7.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Redmi Note 7S"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="11cb9864"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/JINU/DuiTNow Drop 2/Mob Proxy" time="511.462" classname="Test Cases/JINU/DuiTNow Drop 2/Mob Proxy" status="FAILED">
+         <failure type="FAILED" message="Test Cases/JINU/DuiTNow Drop 2/Mob Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered. not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:459)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$1.call(Unknown Source)
+	at Mob Proxy.run(Mob Proxy:736)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597659379229.run(TempTestSuite1597659379229.groovy:36)
+"/>
+         <system-out><![CDATA[2020-08-17 18:16:22 - [TEST_CASE][FAILED] - Test Cases/JINU/DuiTNow Drop 2/Mob Proxy: Test Cases/JINU/DuiTNow Drop 2/Mob Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered. not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:459)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$1.call(Unknown Source)
+	at Mob Proxy.run(Mob Proxy:736)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597659379229.run(TempTestSuite1597659379229.groovy:36)
+
+
+2020-08-17 18:16:23 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk", true): Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-17 18:16:23 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2020-08-17 18:16:23 - [MESSAGE][INFO] - User set preference: ['appWaitPackage', 'com.maybank2u.life.uat']
+
+2020-08-17 18:16:23 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '50,000']
+
+2020-08-17 18:16:23 - [MESSAGE][INFO] - User set preference: ['deviceId', '11cb9864']
+
+2020-08-17 18:16:26 - [MESSAGE][INFO] - Appium server started on port 53,296
+
+2020-08-17 18:17:20 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-17 18:17:20 - [TEST_STEP][PASSED] - delay(40, STOP_ON_FAILURE): Delayed 40 second(s)
+
+2020-08-17 18:18:00 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2020-08-17 18:18:00 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - More (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - More (1)'
+
+2020-08-17 18:18:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - More (1)'
+
+2020-08-17 18:18:16 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Settings (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Settings (1)'
+
+2020-08-17 18:18:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Settings (1)'
+
+2020-08-17 18:18:19 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Maybank2u (2)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank2u (2)'
+
+2020-08-17 18:18:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank2u (2)'
+
+2020-08-17 18:18:21 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:18:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:18:23 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is: 'Link your Maybank account to an ID for DuitNow'
+
+2020-08-17 18:18:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:23 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is: 'Link your Maybank account to an ID for DuitNow'
+
+2020-08-17 18:18:23 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is exist
+
+2020-08-17 18:18:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:24 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is exist
+
+2020-08-17 18:18:24 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:18:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:18:26 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen4.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:18:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen4.png]]
+
+2020-08-17 18:18:27 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is: 'Mobile Number'
+
+2020-08-17 18:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:27 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is: 'Mobile Number'
+
+2020-08-17 18:18:27 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is exist
+
+2020-08-17 18:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is exist
+
+2020-08-17 18:18:28 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (2)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (2)' is: 'Maybank'
+
+2020-08-17 18:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:28 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (2)' is: 'Maybank'
+
+2020-08-17 18:18:28 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (2)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (2)' is exist
+
+2020-08-17 18:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:28 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (2)' is exist
+
+2020-08-17 18:18:28 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1028"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028' is: '********5263'
+
+2020-08-17 18:18:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:29 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028' is: '********5263'
+
+2020-08-17 18:18:29 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1028"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028' is exist
+
+2020-08-17 18:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:29 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028' is exist
+
+2020-08-17 18:18:29 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:18:31 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:18:33 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen5.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:18:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen5.png]]
+
+2020-08-17 18:18:34 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is: 'Mobile Number'
+
+2020-08-17 18:18:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:35 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is: 'Mobile Number'
+
+2020-08-17 18:18:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is exist
+
+2020-08-17 18:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:35 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is exist
+
+2020-08-17 18:18:35 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Status (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Status (1)' is: 'Status'
+
+2020-08-17 18:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:35 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Status (1)' is: 'Status'
+
+2020-08-17 18:18:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Status (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Status (1)' is exist
+
+2020-08-17 18:18:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:36 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Status (1)' is exist
+
+2020-08-17 18:18:36 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is: 'ACTIVE'
+
+2020-08-17 18:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:36 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is: 'ACTIVE'
+
+2020-08-17 18:18:36 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is exist
+
+2020-08-17 18:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:36 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is exist
+
+2020-08-17 18:18:36 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Receiving bank (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Receiving bank (1)' is: 'Receiving bank'
+
+2020-08-17 18:18:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Receiving bank (1)' is: 'Receiving bank'
+
+2020-08-17 18:18:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Receiving bank (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Receiving bank (1)' is exist
+
+2020-08-17 18:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:37 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Receiving bank (1)' is exist
+
+2020-08-17 18:18:37 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (3)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (3)' is: 'Maybank'
+
+2020-08-17 18:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (3)' is: 'Maybank'
+
+2020-08-17 18:18:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (3)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (3)' is exist
+
+2020-08-17 18:18:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:38 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Maybank (3)' is exist
+
+2020-08-17 18:18:38 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is: '********1028'
+
+2020-08-17 18:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is: '********1028'
+
+2020-08-17 18:18:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is exist
+
+2020-08-17 18:18:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:39 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is exist
+
+2020-08-17 18:18:39 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1075"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1075' is: '********1914'
+
+2020-08-17 18:18:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:39 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1075' is: '********1914'
+
+2020-08-17 18:18:39 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1075"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1075' is exist
+
+2020-08-17 18:18:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:40 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1075' is exist
+
+2020-08-17 18:18:40 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Deregister DuitNow"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Deregister DuitNow'
+
+2020-08-17 18:18:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Deregister DuitNow'
+
+2020-08-17 18:18:41 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:18:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:18:43 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen8.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:18:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen8.png]]
+
+2020-08-17 18:18:45 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (2)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (2)'
+
+2020-08-17 18:18:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (2)'
+
+2020-08-17 18:18:46 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:18:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:18:49 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen9.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:18:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen9.png]]
+
+2020-08-17 18:18:50 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:18:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:18:51 - [TEST_STEP][PASSED] - otp = getText(findTestObject("Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943"), 0): Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 439984'
+
+2020-08-17 18:18:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:18:54 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 439984'
+
+2020-08-17 18:18:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-17 18:18:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:18:56 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2020-08-17 18:18:56 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:18:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:18:59 - [TEST_STEP][PASSED] - if (otp[i] == "0"): null
+
+2020-08-17 18:18:59 - [TEST_STEP][PASSED] - if (otp[i] == "1"): null
+
+2020-08-17 18:18:59 - [TEST_STEP][PASSED] - if (otp[i] == "2"): null
+
+2020-08-17 18:18:59 - [TEST_STEP][PASSED] - if (otp[i] == "3"): null
+
+2020-08-17 18:18:59 - [TEST_STEP][PASSED] - if (otp[i] == "4"): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:18:59 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:19:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:19:00 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 4"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:19:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:19:02 - [TEST_STEP][PASSED] - if (otp[i] == "5"): null
+
+2020-08-17 18:19:02 - [TEST_STEP][PASSED] - if (otp[i] == "6"): null
+
+2020-08-17 18:19:02 - [TEST_STEP][PASSED] - if (otp[i] == "7"): null
+
+2020-08-17 18:19:02 - [TEST_STEP][PASSED] - if (otp[i] == "8"): null
+
+2020-08-17 18:19:02 - [TEST_STEP][PASSED] - if (otp[i] == "9"): null
+
+2020-08-17 18:19:02 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:19:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:19:05 - [TEST_STEP][PASSED] - if (otp[i] == "0"): null
+
+2020-08-17 18:19:05 - [TEST_STEP][PASSED] - if (otp[i] == "1"): null
+
+2020-08-17 18:19:05 - [TEST_STEP][PASSED] - if (otp[i] == "2"): null
+
+2020-08-17 18:19:05 - [TEST_STEP][PASSED] - if (otp[i] == "3"): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:19:05 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:19:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:19:06 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0): NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:19:06 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:19:06 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 3"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:19:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:19:09 - [TEST_STEP][PASSED] - if (otp[i] == "4"): null
+
+2020-08-17 18:19:09 - [TEST_STEP][PASSED] - if (otp[i] == "5"): null
+
+2020-08-17 18:19:09 - [TEST_STEP][PASSED] - if (otp[i] == "6"): null
+
+2020-08-17 18:19:09 - [TEST_STEP][PASSED] - if (otp[i] == "7"): null
+
+2020-08-17 18:19:09 - [TEST_STEP][PASSED] - if (otp[i] == "8"): null
+
+2020-08-17 18:19:09 - [TEST_STEP][PASSED] - if (otp[i] == "9"): null
+
+2020-08-17 18:19:09 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:19:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "0"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "1"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "2"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "3"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "4"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "5"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "6"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "7"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "8"): null
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - if (otp[i] == "9"): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:19:12 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:19:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:19:13 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 9"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:19:15 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:19:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "0"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "1"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "2"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "3"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "4"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "5"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "6"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "7"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "8"): null
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - if (otp[i] == "9"): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:19:18 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:19:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:19:19 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 9"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:19:22 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:19:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "0"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "1"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "2"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "3"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "4"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "5"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "6"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "7"): null
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - if (otp[i] == "8"): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-17 18:19:25 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:19:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:19:26 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 8"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-17 18:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-17 18:19:28 - [TEST_STEP][PASSED] - if (otp[i] == "9"): null
+
+2020-08-17 18:19:28 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:19:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:19:31 - [TEST_STEP][PASSED] - if (otp[i] == "0"): null
+
+2020-08-17 18:19:31 - [TEST_STEP][PASSED] - if (otp[i] == "1"): null
+
+2020-08-17 18:19:31 - [TEST_STEP][PASSED] - if (otp[i] == "2"): null
+
+2020-08-17 18:19:31 - [TEST_STEP][PASSED] - if (otp[i] == "3"): null
+
+2020-08-17 18:19:31 - [TEST_STEP][PASSED] - if (otp[i] == "4"): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:19:31 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:19:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:19:32 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 4"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:19:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:19:35 - [TEST_STEP][PASSED] - if (otp[i] == "5"): null
+
+2020-08-17 18:19:35 - [TEST_STEP][PASSED] - if (otp[i] == "6"): null
+
+2020-08-17 18:19:35 - [TEST_STEP][PASSED] - if (otp[i] == "7"): null
+
+2020-08-17 18:19:35 - [TEST_STEP][PASSED] - if (otp[i] == "8"): null
+
+2020-08-17 18:19:35 - [TEST_STEP][PASSED] - if (otp[i] == "9"): null
+
+2020-08-17 18:19:35 - [TEST_STEP][PASSED] - delay(8, STOP_ON_FAILURE): Delayed 8 second(s)
+
+2020-08-17 18:19:43 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-17 18:19:43 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Forgot Pin/android.widget.ImageView0 (7)"), 0): Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:19:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:19:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully deregistered."), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully deregistered.' is exist
+
+2020-08-17 18:19:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:47 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully deregistered.' is exist
+
+2020-08-17 18:19:47 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:19:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:19:49 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen10.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:19:51 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen10.png]]
+
+2020-08-17 18:19:51 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:19:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:19:52 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Select account"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Select account' is: 'Select account'
+
+2020-08-17 18:19:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Select account' is: 'Select account'
+
+2020-08-17 18:19:53 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Not registered"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Not registered' is: 'Not registered'
+
+2020-08-17 18:19:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:54 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Not registered' is: 'Not registered'
+
+2020-08-17 18:19:54 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:19:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:19:56 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen11.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:19:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen11.png]]
+
+2020-08-17 18:19:57 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (2)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (2)'
+
+2020-08-17 18:19:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:19:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (2)'
+
+2020-08-17 18:19:59 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.view.ViewGroup0"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.view.ViewGroup0'
+
+2020-08-17 18:19:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.view.ViewGroup0'
+
+2020-08-17 18:20:02 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Continue (7)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Continue (7)'
+
+2020-08-17 18:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Continue (7)'
+
+2020-08-17 18:20:04 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is: 'Please confirm your DuitNow details'
+
+2020-08-17 18:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:04 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is: 'Please confirm your DuitNow details'
+
+2020-08-17 18:20:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is exist
+
+2020-08-17 18:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:04 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is exist
+
+2020-08-17 18:20:04 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Agree and Confirm (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Agree and Confirm (1)'
+
+2020-08-17 18:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Agree and Confirm (1)'
+
+2020-08-17 18:20:05 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is: 'You’ve successfully linked your account to DuitNow'
+
+2020-08-17 18:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:07 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is: 'You’ve successfully linked your account to DuitNow'
+
+2020-08-17 18:20:07 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is exist
+
+2020-08-17 18:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:07 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is exist
+
+2020-08-17 18:20:07 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:20:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:20:09 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen12.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:20:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen12.png]]
+
+2020-08-17 18:20:10 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (3)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (3)' is: 'Mobile Number'
+
+2020-08-17 18:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:10 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (3)' is: 'Mobile Number'
+
+2020-08-17 18:20:10 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (3)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (3)' is exist
+
+2020-08-17 18:20:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:11 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (3)' is exist
+
+2020-08-17 18:20:11 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Done (10)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Done (10)'
+
+2020-08-17 18:20:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Done (10)'
+
+2020-08-17 18:20:13 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:20:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:20:15 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:20:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:20:17 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Disable Temporarily"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Disable Temporarily'
+
+2020-08-17 18:20:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Disable Temporarily'
+
+2020-08-17 18:20:18 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (2)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (2)'
+
+2020-08-17 18:20:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (2)'
+
+2020-08-17 18:20:20 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:20:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:20:21 - [TEST_STEP][PASSED] - otpM = getText(findTestObject("Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943"), 0): Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 463041'
+
+2020-08-17 18:20:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:24 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 463041'
+
+2020-08-17 18:20:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-17 18:20:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:20:26 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2020-08-17 18:20:26 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:20:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:20:29 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-17 18:20:29 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-17 18:20:29 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-17 18:20:29 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-17 18:20:29 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:20:29 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:20:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:20:30 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 4"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:20:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:20:32 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-17 18:20:32 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-17 18:20:32 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-17 18:20:32 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-17 18:20:32 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-17 18:20:32 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:20:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:20:35 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:20:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:20:36 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 6"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:20:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:20:38 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-17 18:20:38 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-17 18:20:38 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-17 18:20:38 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:20:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:20:41 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-17 18:20:41 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-17 18:20:41 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-17 18:20:41 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:20:41 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:20:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:20:42 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0): NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:20:42 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:20:42 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 3"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:20:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:20:45 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-17 18:20:45 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-17 18:20:45 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-17 18:20:45 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-17 18:20:45 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-17 18:20:45 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-17 18:20:45 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:20:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:20:48 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:20:48 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:20:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:20:49 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy-0"), 0): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:20:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-17 18:20:52 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:20:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:20:55 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-17 18:20:55 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-17 18:20:55 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-17 18:20:55 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-17 18:20:55 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:20:55 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:20:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:20:56 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 4"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:20:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:20:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:20:58 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-17 18:20:58 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-17 18:20:58 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-17 18:20:58 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-17 18:20:58 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-17 18:20:58 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:21:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:21:01 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-17 18:21:01 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-17 18:21:01 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:21:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:21:02 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 1"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-17 18:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-17 18:21:05 - [TEST_STEP][PASSED] - delay(8, STOP_ON_FAILURE): Delayed 8 second(s)
+
+2020-08-17 18:21:13 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-17 18:21:13 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Forgot Pin/android.widget.ImageView0 (7)"), 0): Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:21:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:21:14 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully disabled."), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully disabled.' is exist
+
+2020-08-17 18:21:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:16 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully disabled.' is exist
+
+2020-08-17 18:21:16 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:21:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:21:18 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is: 'Link your Maybank account to an ID for DuitNow'
+
+2020-08-17 18:21:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:18 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is: 'Link your Maybank account to an ID for DuitNow'
+
+2020-08-17 18:21:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is exist
+
+2020-08-17 18:21:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Link your Maybank account to an ID for DuitNow (1)' is exist
+
+2020-08-17 18:21:19 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:21:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:21:21 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen13.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:21:22 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen13.png]]
+
+2020-08-17 18:21:22 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is: 'Mobile Number'
+
+2020-08-17 18:21:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:22 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is: 'Mobile Number'
+
+2020-08-17 18:21:22 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is exist
+
+2020-08-17 18:21:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:23 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number' is exist
+
+2020-08-17 18:21:23 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:21:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:21:24 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - INACTIVE"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - INACTIVE' is: 'INACTIVE'
+
+2020-08-17 18:21:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:25 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - INACTIVE' is: 'INACTIVE'
+
+2020-08-17 18:21:25 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - INACTIVE"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - INACTIVE' is exist
+
+2020-08-17 18:21:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:25 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - INACTIVE' is exist
+
+2020-08-17 18:21:25 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Enable"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Enable'
+
+2020-08-17 18:21:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Enable'
+
+2020-08-17 18:21:27 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:21:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:21:28 - [TEST_STEP][PASSED] - otpMi = getText(findTestObject("Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943"), 0): Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 106236'
+
+2020-08-17 18:21:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 106236'
+
+2020-08-17 18:21:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-17 18:21:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:21:33 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2020-08-17 18:21:33 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:21:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:21:36 - [TEST_STEP][PASSED] - if (otpMi[i] == "0"): null
+
+2020-08-17 18:21:36 - [TEST_STEP][PASSED] - if (otpMi[i] == "1"): Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-17 18:21:36 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:21:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:21:37 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 1"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-17 18:21:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "2"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "3"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "4"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "5"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "6"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "7"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "8"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - if (otpMi[i] == "9"): null
+
+2020-08-17 18:21:39 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:21:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:21:42 - [TEST_STEP][PASSED] - if (otpMi[i] == "0"): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:21:42 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:21:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:21:43 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy-0"), 0): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:21:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "1"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "2"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "3"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "4"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "5"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "6"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "7"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "8"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - if (otpMi[i] == "9"): null
+
+2020-08-17 18:21:46 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:21:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - if (otpMi[i] == "0"): null
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - if (otpMi[i] == "1"): null
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - if (otpMi[i] == "2"): null
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - if (otpMi[i] == "3"): null
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - if (otpMi[i] == "4"): null
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - if (otpMi[i] == "5"): null
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - if (otpMi[i] == "6"): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:21:49 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:21:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:21:50 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 6"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:21:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:21:52 - [TEST_STEP][PASSED] - if (otpMi[i] == "7"): null
+
+2020-08-17 18:21:52 - [TEST_STEP][PASSED] - if (otpMi[i] == "8"): null
+
+2020-08-17 18:21:52 - [TEST_STEP][PASSED] - if (otpMi[i] == "9"): null
+
+2020-08-17 18:21:52 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:21:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:21:55 - [TEST_STEP][PASSED] - if (otpMi[i] == "0"): null
+
+2020-08-17 18:21:55 - [TEST_STEP][PASSED] - if (otpMi[i] == "1"): null
+
+2020-08-17 18:21:55 - [TEST_STEP][PASSED] - if (otpMi[i] == "2"): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-17 18:21:55 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:21:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:21:56 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 2"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-17 18:21:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:21:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - if (otpMi[i] == "3"): null
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - if (otpMi[i] == "4"): null
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - if (otpMi[i] == "5"): null
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - if (otpMi[i] == "6"): null
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - if (otpMi[i] == "7"): null
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - if (otpMi[i] == "8"): null
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - if (otpMi[i] == "9"): null
+
+2020-08-17 18:21:59 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:22:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:22:02 - [TEST_STEP][PASSED] - if (otpMi[i] == "0"): null
+
+2020-08-17 18:22:02 - [TEST_STEP][PASSED] - if (otpMi[i] == "1"): null
+
+2020-08-17 18:22:02 - [TEST_STEP][PASSED] - if (otpMi[i] == "2"): null
+
+2020-08-17 18:22:02 - [TEST_STEP][PASSED] - if (otpMi[i] == "3"): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:22:02 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:22:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:22:03 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0): NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:22:03 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:22:03 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 3"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:22:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:22:05 - [TEST_STEP][PASSED] - if (otpMi[i] == "4"): null
+
+2020-08-17 18:22:05 - [TEST_STEP][PASSED] - if (otpMi[i] == "5"): null
+
+2020-08-17 18:22:05 - [TEST_STEP][PASSED] - if (otpMi[i] == "6"): null
+
+2020-08-17 18:22:05 - [TEST_STEP][PASSED] - if (otpMi[i] == "7"): null
+
+2020-08-17 18:22:05 - [TEST_STEP][PASSED] - if (otpMi[i] == "8"): null
+
+2020-08-17 18:22:05 - [TEST_STEP][PASSED] - if (otpMi[i] == "9"): null
+
+2020-08-17 18:22:05 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:22:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - if (otpMi[i] == "0"): null
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - if (otpMi[i] == "1"): null
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - if (otpMi[i] == "2"): null
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - if (otpMi[i] == "3"): null
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - if (otpMi[i] == "4"): null
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - if (otpMi[i] == "5"): null
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - if (otpMi[i] == "6"): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:22:08 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:22:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:22:09 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 6"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:22:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-17 18:22:12 - [TEST_STEP][PASSED] - if (otpMi[i] == "7"): null
+
+2020-08-17 18:22:12 - [TEST_STEP][PASSED] - if (otpMi[i] == "8"): null
+
+2020-08-17 18:22:12 - [TEST_STEP][PASSED] - if (otpMi[i] == "9"): null
+
+2020-08-17 18:22:12 - [TEST_STEP][PASSED] - delay(8, STOP_ON_FAILURE): Delayed 8 second(s)
+
+2020-08-17 18:22:20 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-17 18:22:20 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Forgot Pin/android.widget.ImageView0 (7)"), 0): Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:22:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:22:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully enabled."), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully enabled.' is exist
+
+2020-08-17 18:22:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:23 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow successfully enabled.' is exist
+
+2020-08-17 18:22:23 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:22:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:22:25 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen14.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:22:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen14.png]]
+
+2020-08-17 18:22:27 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:22:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - DuitNow (6)'
+
+2020-08-17 18:22:29 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:22:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number'
+
+2020-08-17 18:22:31 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is: 'ACTIVE'
+
+2020-08-17 18:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:31 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is: 'ACTIVE'
+
+2020-08-17 18:22:31 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is exist
+
+2020-08-17 18:22:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:32 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - ACTIVE (1)' is exist
+
+2020-08-17 18:22:32 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is: 'Mobile Number'
+
+2020-08-17 18:22:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:32 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is: 'Mobile Number'
+
+2020-08-17 18:22:32 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is exist
+
+2020-08-17 18:22:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:32 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Mobile Number (1)' is exist
+
+2020-08-17 18:22:32 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is: '********1028'
+
+2020-08-17 18:22:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:33 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is: '********1028'
+
+2020-08-17 18:22:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is exist
+
+2020-08-17 18:22:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:33 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - 1028 (1)' is exist
+
+2020-08-17 18:22:33 - [TEST_STEP][NOT_RUN] - closeApplication(): NOT_RUN: closeApplication()
+
+2020-08-17 18:22:33 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication()
+
+2020-08-17 18:22:33 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:22:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:22:35 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen15.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:22:36 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen15.png]]
+
+2020-08-17 18:22:36 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Switch account (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Switch account (1)'
+
+2020-08-17 18:22:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Switch account (1)'
+
+2020-08-17 18:22:39 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.view.ViewGroup0"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.view.ViewGroup0'
+
+2020-08-17 18:22:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.view.ViewGroup0'
+
+2020-08-17 18:22:41 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Continue (7)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Continue (7)'
+
+2020-08-17 18:22:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Continue (7)'
+
+2020-08-17 18:22:43 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)"), 0): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is: 'Please confirm your DuitNow details'
+
+2020-08-17 18:22:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:43 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is: 'Please confirm your DuitNow details'
+
+2020-08-17 18:22:43 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is exist
+
+2020-08-17 18:22:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:44 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Please confirm your DuitNow details (1)' is exist
+
+2020-08-17 18:22:44 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Agree and Confirm (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Agree and Confirm (1)'
+
+2020-08-17 18:22:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Agree and Confirm (1)'
+
+2020-08-17 18:22:45 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:22:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:22:47 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen6.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:22:48 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen6.png]]
+
+2020-08-17 18:22:48 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:22:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Confirm (1)'
+
+2020-08-17 18:22:50 - [TEST_STEP][PASSED] - otpMess = getText(findTestObject("Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943"), 0): Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 494038'
+
+2020-08-17 18:22:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:22:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943' is: 'Your OTP no. is 494038'
+
+2020-08-17 18:22:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-17 18:22:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:22:54 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2020-08-17 18:22:54 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:22:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:22:57 - [TEST_STEP][PASSED] - if (otpMess[i] == "0"): null
+
+2020-08-17 18:22:57 - [TEST_STEP][PASSED] - if (otpMess[i] == "1"): null
+
+2020-08-17 18:22:57 - [TEST_STEP][PASSED] - if (otpMess[i] == "2"): null
+
+2020-08-17 18:22:57 - [TEST_STEP][PASSED] - if (otpMess[i] == "3"): null
+
+2020-08-17 18:22:57 - [TEST_STEP][PASSED] - if (otpMess[i] == "4"): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:22:57 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:22:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:22:58 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 4"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:22:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:23:01 - [TEST_STEP][PASSED] - if (otpMess[i] == "5"): null
+
+2020-08-17 18:23:01 - [TEST_STEP][PASSED] - if (otpMess[i] == "6"): null
+
+2020-08-17 18:23:01 - [TEST_STEP][PASSED] - if (otpMess[i] == "7"): null
+
+2020-08-17 18:23:01 - [TEST_STEP][PASSED] - if (otpMess[i] == "8"): null
+
+2020-08-17 18:23:01 - [TEST_STEP][PASSED] - if (otpMess[i] == "9"): null
+
+2020-08-17 18:23:01 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:23:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "0"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "1"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "2"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "3"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "4"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "5"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "6"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "7"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "8"): null
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - if (otpMess[i] == "9"): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:23:04 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:23:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:23:05 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 9"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:23:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-17 18:23:07 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:23:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:23:10 - [TEST_STEP][PASSED] - if (otpMess[i] == "0"): null
+
+2020-08-17 18:23:10 - [TEST_STEP][PASSED] - if (otpMess[i] == "1"): null
+
+2020-08-17 18:23:10 - [TEST_STEP][PASSED] - if (otpMess[i] == "2"): null
+
+2020-08-17 18:23:10 - [TEST_STEP][PASSED] - if (otpMess[i] == "3"): null
+
+2020-08-17 18:23:10 - [TEST_STEP][PASSED] - if (otpMess[i] == "4"): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:23:10 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:23:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:23:11 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 4"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:23:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 4'
+
+2020-08-17 18:23:13 - [TEST_STEP][PASSED] - if (otpMess[i] == "5"): null
+
+2020-08-17 18:23:13 - [TEST_STEP][PASSED] - if (otpMess[i] == "6"): null
+
+2020-08-17 18:23:13 - [TEST_STEP][PASSED] - if (otpMess[i] == "7"): null
+
+2020-08-17 18:23:13 - [TEST_STEP][PASSED] - if (otpMess[i] == "8"): null
+
+2020-08-17 18:23:13 - [TEST_STEP][PASSED] - if (otpMess[i] == "9"): null
+
+2020-08-17 18:23:13 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:23:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:23:16 - [TEST_STEP][PASSED] - if (otpMess[i] == "0"): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:23:16 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:23:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:23:17 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy-0"), 0): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:23:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "1"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "2"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "3"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "4"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "5"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "6"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "7"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "8"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - if (otpMess[i] == "9"): null
+
+2020-08-17 18:23:19 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:23:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:23:22 - [TEST_STEP][PASSED] - if (otpMess[i] == "0"): null
+
+2020-08-17 18:23:22 - [TEST_STEP][PASSED] - if (otpMess[i] == "1"): null
+
+2020-08-17 18:23:22 - [TEST_STEP][PASSED] - if (otpMess[i] == "2"): null
+
+2020-08-17 18:23:22 - [TEST_STEP][PASSED] - if (otpMess[i] == "3"): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:23:22 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:23:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:23:23 - [TEST_STEP][NOT_RUN] - tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0): NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:23:23 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("MAYA SIT v118/spy/TAC - keypad 3"), 0)
+
+2020-08-17 18:23:23 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 3"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:23:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 3'
+
+2020-08-17 18:23:26 - [TEST_STEP][PASSED] - if (otpMess[i] == "4"): null
+
+2020-08-17 18:23:26 - [TEST_STEP][PASSED] - if (otpMess[i] == "5"): null
+
+2020-08-17 18:23:26 - [TEST_STEP][PASSED] - if (otpMess[i] == "6"): null
+
+2020-08-17 18:23:26 - [TEST_STEP][PASSED] - if (otpMess[i] == "7"): null
+
+2020-08-17 18:23:26 - [TEST_STEP][PASSED] - if (otpMess[i] == "8"): null
+
+2020-08-17 18:23:26 - [TEST_STEP][PASSED] - if (otpMess[i] == "9"): null
+
+2020-08-17 18:23:26 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-17 18:23:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "0"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "1"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "2"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "3"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "4"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "5"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "6"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "7"): null
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - if (otpMess[i] == "8"): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-17 18:23:29 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-17 18:23:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-17 18:23:30 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 8"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-17 18:23:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-17 18:23:32 - [TEST_STEP][PASSED] - if (otpMess[i] == "9"): null
+
+2020-08-17 18:23:32 - [TEST_STEP][PASSED] - delay(8, STOP_ON_FAILURE): Delayed 8 second(s)
+
+2020-08-17 18:23:40 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-17 18:23:40 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Forgot Pin/android.widget.ImageView0 (7)"), 0): Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:23:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Forgot Pin/android.widget.ImageView0 (7)'
+
+2020-08-17 18:23:42 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)"), 0, STOP_ON_FAILURE): Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is: 'You’ve successfully linked your account to DuitNow'
+
+2020-08-17 18:23:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:44 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is: 'You’ve successfully linked your account to DuitNow'
+
+2020-08-17 18:23:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)"), 0): Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is exist
+
+2020-08-17 18:23:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:44 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Youve successfully linked your account to DuitNow (1)' is exist
+
+2020-08-17 18:23:44 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 18:23:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 18:23:46 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen7.png", CONTINUE_ON_FAILURE): Screenshot is taken
+
+2020-08-17 18:23:48 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\DuitNowProxy\\Screen7.png]]
+
+2020-08-17 18:23:48 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/RegisterDuitNow/android.widget.TextView0 - Done (10)"), 0): Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Done (10)'
+
+2020-08-17 18:23:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:23:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/RegisterDuitNow/android.widget.TextView0 - Done (10)'
+
+2020-08-17 18:23:50 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - More (1)"), 0): Tapped on element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - More (1)'
+
+2020-08-17 18:23:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - More (1)'
+
+2020-08-17 18:24:02 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Notifications"), 0): Tapped on element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications'
+
+2020-08-17 18:24:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications'
+
+2020-08-17 18:24:03 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Today"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Today' is: 'Today'
+
+2020-08-17 18:24:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:07 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Today' is: 'Today'
+
+2020-08-17 18:24:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Today"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Today' is visible
+
+2020-08-17 18:24:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:08 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Today' is visible
+
+2020-08-17 18:24:08 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)' is: 'Notifications'
+
+2020-08-17 18:24:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:09 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)' is: 'Notifications'
+
+2020-08-17 18:24:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)' is visible
+
+2020-08-17 18:24:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:10 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)' is visible
+
+2020-08-17 18:24:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)' is visible
+
+2020-08-17 18:24:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:10 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Notifications (1)' is visible
+
+2020-08-17 18:24:10 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Deregistration"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Deregistration' is: 'Maybank2u: DuitNow ID Deregistration'
+
+2020-08-17 18:24:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Deregistration' is: 'Maybank2u: DuitNow ID Deregistration'
+
+2020-08-17 18:24:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Deregistration"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Deregistration' is visible
+
+2020-08-17 18:24:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:12 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Deregistration' is visible
+
+2020-08-17 18:24:12 - [TEST_STEP][FAILED] - getText(findTestObject("Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered."), 0): Object Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered. not found
+
+2020-08-17 18:24:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:23 - [MESSAGE][FAILED] - Object Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered. not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_181619\\Maya UAT\\UAT Test Suite\\20200817_181619\\1597659862206.png]]
+
+2020-08-17 18:24:23 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered."), 0): Element 'Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered.' not found
+
+2020-08-17 18:24:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:35 - [MESSAGE][FAILED] - Element 'Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered.' not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_181619\\Maya UAT\\UAT Test Suite\\20200817_181619\\1597659873573.png]]
+
+2020-08-17 18:24:35 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1151 PM"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1151 PM' is: '6:20 PM'
+
+2020-08-17 18:24:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:35 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1151 PM' is: '6:20 PM'
+
+2020-08-17 18:24:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1151 PM"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1151 PM' is exist
+
+2020-08-17 18:24:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:36 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1151 PM' is exist
+
+2020-08-17 18:24:36 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Registration"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Registration' is: 'Maybank2u: DuitNow ID Registration'
+
+2020-08-17 18:24:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Registration' is: 'Maybank2u: DuitNow ID Registration'
+
+2020-08-17 18:24:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Registration"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Registration' is visible
+
+2020-08-17 18:24:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:38 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Registration' is visible
+
+2020-08-17 18:24:38 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been registered."), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been registered.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been registered.'
+
+2020-08-17 18:24:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:38 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been registered.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been registered.'
+
+2020-08-17 18:24:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been registered."), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been registered.' is visible
+
+2020-08-17 18:24:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:39 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been registered.' is visible
+
+2020-08-17 18:24:39 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1152 PM"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1152 PM' is: '6:21 PM'
+
+2020-08-17 18:24:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1152 PM' is: '6:21 PM'
+
+2020-08-17 18:24:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1152 PM"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1152 PM' is exist
+
+2020-08-17 18:24:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:41 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1152 PM' is exist
+
+2020-08-17 18:24:41 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy disabled"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy disabled' is: 'Maybank2u: DuitNow ID Proxy disabled'
+
+2020-08-17 18:24:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy disabled' is: 'Maybank2u: DuitNow ID Proxy disabled'
+
+2020-08-17 18:24:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy disabled"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy disabled' is visible
+
+2020-08-17 18:24:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:42 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy disabled' is visible
+
+2020-08-17 18:24:42 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been disabled."), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been disabled.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been disabled.'
+
+2020-08-17 18:24:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:43 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been disabled.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been disabled.'
+
+2020-08-17 18:24:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been disabled."), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been disabled.' is visible
+
+2020-08-17 18:24:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:43 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been disabled.' is visible
+
+2020-08-17 18:24:43 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1153 PM"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1153 PM' is: '6:22 PM'
+
+2020-08-17 18:24:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:44 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1153 PM' is: '6:22 PM'
+
+2020-08-17 18:24:44 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1153 PM"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1153 PM' is exist
+
+2020-08-17 18:24:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:45 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1153 PM' is exist
+
+2020-08-17 18:24:45 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy enabled"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy enabled' is: 'Maybank2u: DuitNow ID Proxy enabled'
+
+2020-08-17 18:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy enabled' is: 'Maybank2u: DuitNow ID Proxy enabled'
+
+2020-08-17 18:24:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy enabled"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy enabled' is visible
+
+2020-08-17 18:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:46 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy enabled' is visible
+
+2020-08-17 18:24:46 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been enabled."), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been enabled.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been enabled.'
+
+2020-08-17 18:24:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:47 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been enabled.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been enabled.'
+
+2020-08-17 18:24:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been enabled."), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been enabled.' is visible
+
+2020-08-17 18:24:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:47 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been enabled.' is visible
+
+2020-08-17 18:24:47 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1154 PM"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1154 PM' is: '6:23 PM'
+
+2020-08-17 18:24:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:48 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1154 PM' is: '6:23 PM'
+
+2020-08-17 18:24:48 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1154 PM"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1154 PM' is exist
+
+2020-08-17 18:24:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:49 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1154 PM' is exist
+
+2020-08-17 18:24:49 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy Update"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy Update' is: 'Maybank2u: DuitNow ID Proxy Update'
+
+2020-08-17 18:24:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:50 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy Update' is: 'Maybank2u: DuitNow ID Proxy Update'
+
+2020-08-17 18:24:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy Update"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy Update' is exist
+
+2020-08-17 18:24:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:50 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Maybank2u DuitNow ID Proxy Update' is exist
+
+2020-08-17 18:24:50 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been updated."), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been updated.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been updated.'
+
+2020-08-17 18:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:51 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been updated.' is: 'Duitnow Proxy (Mobile Number) ending ****1028 has just been updated.'
+
+2020-08-17 18:24:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been updated."), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been updated.' is exist
+
+2020-08-17 18:24:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:52 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - Duitnow Proxy (Mobile Number) ending 1028 has just been updated.' is exist
+
+2020-08-17 18:24:52 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1155 PM"), 0): Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1155 PM' is: '6:23 PM'
+
+2020-08-17 18:24:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1155 PM' is: '6:23 PM'
+
+2020-08-17 18:24:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Maya/Mobile proxy/android.widget.TextView0 - 1155 PM"), 0): Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1155 PM' is exist
+
+2020-08-17 18:24:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 18:24:53 - [MESSAGE][PASSED] - Element 'Object Repository/Maya/Mobile proxy/android.widget.TextView0 - 1155 PM' is exist]]></system-out>
+         <system-err><![CDATA[2020-08-17 18:16:22 - [TEST_CASE][FAILED] - Test Cases/JINU/DuiTNow Drop 2/Mob Proxy: Test Cases/JINU/DuiTNow Drop 2/Mob Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered. not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:459)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$1.call(Unknown Source)
+	at Mob Proxy.run(Mob Proxy:736)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597659379229.run(TempTestSuite1597659379229.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-17 18:16:22 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/DuiTNow Drop 2/Mob Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered. not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:459)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$1.call(Unknown Source)
+	at Mob Proxy.run(Mob Proxy:736)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597659379229.run(TempTestSuite1597659379229.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-08-17 18:16:22 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/DuiTNow Drop 2/Mob Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/spy/android.widget.TextView0 - Duitnow Proxy (NRIC Number) ending 5263 has just been deregistered. not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.doCall(GetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword$_getText_closure1.call(GetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.getText(GetTextKeyword.groovy:80)
+	at com.kms.katalon.core.mobile.keyword.builtin.GetTextKeyword.execute(GetTextKeyword.groovy:64)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(MobileBuiltInKeywords.groovy:459)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$getText$1.call(Unknown Source)
+	at Mob Proxy.run(Mob Proxy:736)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597659379229.run(TempTestSuite1597659379229.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

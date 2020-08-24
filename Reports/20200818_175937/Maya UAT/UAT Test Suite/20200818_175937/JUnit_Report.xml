@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UAT Test Suite" time="308.934" tests="1" failures="1" errors="0">
+   <testsuite name="UAT Test Suite" tests="1" failures="1" errors="0" time="308.934" timestamp="2020-08-18 17:59:40" hostname="LENOVO - DESKTOP-CP3TV4N" id="Test Suites/Maya UAT/UAT Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_175937\\Maya UAT\\UAT Test Suite\\20200818_175937"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_175937\\Maya UAT\\UAT Test Suite\\20200818_175937\\appium.log, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_175937\\Maya UAT\\UAT Test Suite\\20200818_175937\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot1, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot2, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot3, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot4, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot5, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot6, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot10, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot7, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot18, C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot9, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_175937\\Maya UAT\\UAT Test Suite\\20200818_175937\\1597745075983.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-CP3TV4N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.2.7.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Redmi Note 7S"/>
+         <property name="hostAddress" value="192.168.43.112"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="11cb9864"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/JINU/MAE Cards/MAE Card" time="307.464" classname="Test Cases/JINU/MAE Cards/MAE Card" status="FAILED">
+         <failure type="FAILED" message="Test Cases/JINU/MAE Cards/MAE Card FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at MAE Card.run(MAE Card:357)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597744777256.run(TempTestSuite1597744777256.groovy:36)
+"/>
+         <system-out><![CDATA[2020-08-18 17:59:40 - [TEST_CASE][FAILED] - Test Cases/JINU/MAE Cards/MAE Card: Test Cases/JINU/MAE Cards/MAE Card FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at MAE Card.run(MAE Card:357)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597744777256.run(TempTestSuite1597744777256.groovy:36)
+
+
+2020-08-18 17:59:41 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk", false): Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-18 17:59:41 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2020-08-18 17:59:41 - [MESSAGE][INFO] - User set preference: ['appWaitPackage', 'com.maybank2u.life.uat']
+
+2020-08-18 17:59:41 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '50,000']
+
+2020-08-18 17:59:41 - [MESSAGE][INFO] - User set preference: ['deviceId', '11cb9864']
+
+2020-08-18 17:59:50 - [MESSAGE][INFO] - Appium server started on port 50,253
+
+2020-08-18 18:00:13 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-18 18:00:13 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Maybank2u"), 10): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Maybank2u'
+
+2020-08-18 18:00:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Maybank2u'
+
+2020-08-18 18:00:27 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:00:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:00:29 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot1", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:00:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot1]]
+
+2020-08-18 18:00:30 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 2"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 2'
+
+2020-08-18 18:00:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 2'
+
+2020-08-18 18:00:33 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 3"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3'
+
+2020-08-18 18:00:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3'
+
+2020-08-18 18:00:35 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 0"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 0'
+
+2020-08-18 18:00:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 0'
+
+2020-08-18 18:00:37 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 9"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9'
+
+2020-08-18 18:00:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9'
+
+2020-08-18 18:00:39 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 8"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 8'
+
+2020-08-18 18:00:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 8'
+
+2020-08-18 18:00:41 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 3"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3'
+
+2020-08-18 18:00:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3'
+
+2020-08-18 18:00:43 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - MAE"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - MAE'
+
+2020-08-18 18:00:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - MAE'
+
+2020-08-18 18:00:47 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:00:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:00:49 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot2", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:00:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot2]]
+
+2020-08-18 18:00:50 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.ImageView0"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.ImageView0'
+
+2020-08-18 18:00:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.ImageView0'
+
+2020-08-18 18:00:53 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - CARDS"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - CARDS'
+
+2020-08-18 18:00:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - CARDS'
+
+2020-08-18 18:00:54 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Maybank2u (1)"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Maybank2u (1)' is: 'Maybank2u'
+
+2020-08-18 18:00:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Maybank2u (1)' is: 'Maybank2u'
+
+2020-08-18 18:00:55 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - MAE Debit Card"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - MAE Debit Card' is: 'MAE Debit Card'
+
+2020-08-18 18:00:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - MAE Debit Card' is: 'MAE Debit Card'
+
+2020-08-18 18:00:55 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 4283 3230 0010 8544"), 0): NOT_RUN: getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 4283 3230 0010 8544"), 0)
+
+2020-08-18 18:00:55 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 4283 3230 0010 8544"), 0)
+
+2020-08-18 18:00:55 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - MAE Debit Card"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - MAE Debit Card'
+
+2020-08-18 18:00:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - MAE Debit Card'
+
+2020-08-18 18:00:57 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 4283 3230 0010 8544 (1)"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 4283 3230 0010 8544 (1)' is: '4283 3230 0010 8544'
+
+2020-08-18 18:00:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:58 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 4283 3230 0010 8544 (1)' is: '4283 3230 0010 8544'
+
+2020-08-18 18:00:58 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 1025"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 1025' is: '10/25'
+
+2020-08-18 18:00:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 1025' is: '10/25'
+
+2020-08-18 18:00:59 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Card Management"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Card Management' is: 'Card Management'
+
+2020-08-18 18:00:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Card Management' is: 'Card Management'
+
+2020-08-18 18:00:59 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Show CVV"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Show CVV' is: 'Show CVV'
+
+2020-08-18 18:00:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:00:59 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Show CVV' is: 'Show CVV'
+
+2020-08-18 18:00:59 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN' is: 'Change Card PIN'
+
+2020-08-18 18:00:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:00 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN' is: 'Change Card PIN'
+
+2020-08-18 18:01:00 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:01:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:01:02 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot3", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:01:02 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot3]]
+
+2020-08-18 18:01:02 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Apply for Physical MAE Card"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Apply for Physical MAE Card' is: 'Apply for Physical MAE Card'
+
+2020-08-18 18:01:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:03 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Apply for Physical MAE Card' is: 'Apply for Physical MAE Card'
+
+2020-08-18 18:01:03 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Show CVV"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Show CVV'
+
+2020-08-18 18:01:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Show CVV'
+
+2020-08-18 18:01:04 - [TEST_STEP][PASSED] - setText(findTestObject("Maya/login again/android.widget.EditText0 (1)"), "pass1234", 0): Text 'pass1234' has been set to element 'Object Repository/Maya/login again/android.widget.EditText0 (1)'
+
+2020-08-18 18:01:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:06 - [MESSAGE][PASSED] - Text 'pass1234' has been set to element 'Object Repository/Maya/login again/android.widget.EditText0 (1)'
+
+2020-08-18 18:01:06 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2020-08-18 18:01:06 - [TEST_STEP][PASSED] - driver.pressKeyCode(ENTER): null
+
+2020-08-18 18:01:07 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943"), 0): NOT_RUN: tap(findTestObject("Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943"), 0)
+
+2020-08-18 18:01:07 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Maya/Third Party CA account/android.widget.TextView0 - Your OTP no. is 460943"), 0)
+
+2020-08-18 18:01:07 - [TEST_STEP][PASSED] - otpMessage = getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Your Otp no. is 247036"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Your Otp no. is 247036' is: 'Your Otp no. is 212809'
+
+2020-08-18 18:01:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:12 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Your Otp no. is 247036' is: 'Your Otp no. is 212809'
+
+2020-08-18 18:01:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-18 18:01:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:01:14 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-18 18:01:14 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:01:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:01:17 - [TEST_STEP][PASSED] - if (otpMessage[i] == "0"): null
+
+2020-08-18 18:01:17 - [TEST_STEP][PASSED] - if (otpMessage[i] == "1"): null
+
+2020-08-18 18:01:17 - [TEST_STEP][PASSED] - if (otpMessage[i] == "2"): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:01:17 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:01:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:01:18 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 2"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:01:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - if (otpMessage[i] == "3"): null
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - if (otpMessage[i] == "4"): null
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - if (otpMessage[i] == "5"): null
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - if (otpMessage[i] == "6"): null
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - if (otpMessage[i] == "7"): null
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - if (otpMessage[i] == "8"): null
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - if (otpMessage[i] == "9"): null
+
+2020-08-18 18:01:21 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:01:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:01:24 - [TEST_STEP][PASSED] - if (otpMessage[i] == "0"): null
+
+2020-08-18 18:01:24 - [TEST_STEP][PASSED] - if (otpMessage[i] == "1"): Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-18 18:01:24 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:01:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:01:25 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 1"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-18 18:01:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 1'
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "2"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "3"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "4"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "5"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "6"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "7"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "8"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - if (otpMessage[i] == "9"): null
+
+2020-08-18 18:01:27 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:01:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:01:30 - [TEST_STEP][PASSED] - if (otpMessage[i] == "0"): null
+
+2020-08-18 18:01:30 - [TEST_STEP][PASSED] - if (otpMessage[i] == "1"): null
+
+2020-08-18 18:01:30 - [TEST_STEP][PASSED] - if (otpMessage[i] == "2"): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:01:30 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:01:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:01:31 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 2"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:01:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - if (otpMessage[i] == "3"): null
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - if (otpMessage[i] == "4"): null
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - if (otpMessage[i] == "5"): null
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - if (otpMessage[i] == "6"): null
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - if (otpMessage[i] == "7"): null
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - if (otpMessage[i] == "8"): null
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - if (otpMessage[i] == "9"): null
+
+2020-08-18 18:01:33 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:01:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "0"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "1"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "2"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "3"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "4"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "5"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "6"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "7"): null
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - if (otpMessage[i] == "8"): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-18 18:01:36 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:01:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:01:37 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 8"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-18 18:01:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-18 18:01:40 - [TEST_STEP][PASSED] - if (otpMessage[i] == "9"): null
+
+2020-08-18 18:01:40 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:01:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:01:43 - [TEST_STEP][PASSED] - if (otpMessage[i] == "0"): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-18 18:01:43 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:01:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:01:44 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy-0"), 0): Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-18 18:01:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy-0'
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "1"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "2"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "3"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "4"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "5"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "6"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "7"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "8"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - if (otpMessage[i] == "9"): null
+
+2020-08-18 18:01:46 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:01:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "0"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "1"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "2"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "3"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "4"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "5"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "6"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "7"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "8"): null
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - if (otpMessage[i] == "9"): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-18 18:01:49 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:01:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:01:50 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 9"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-18 18:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:01:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-18 18:01:52 - [TEST_STEP][PASSED] - delay(8, STOP_ON_FAILURE): Delayed 8 second(s)
+
+2020-08-18 18:02:00 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-18 18:02:00 - [TEST_STEP][PASSED] - tapAtPosition(826, 2048): Tapped at [826, 2,048]
+
+2020-08-18 18:02:01 - [MESSAGE][PASSED] - Tapped at [826, 2,048]
+
+2020-08-18 18:02:01 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Your CVV is 163"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Your CVV is 163' is: 'Your CVV is 163'
+
+2020-08-18 18:02:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:02 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Your CVV is 163' is: 'Your CVV is 163'
+
+2020-08-18 18:02:02 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:02:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:02:04 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot4", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:02:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot4]]
+
+2020-08-18 18:02:06 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Date  Time"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Date  Time' is: 'Date & time'
+
+2020-08-18 18:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Date  Time' is: 'Date & time'
+
+2020-08-18 18:02:06 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 10 Aug 2020 1714 PM"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 10 Aug 2020 1714 PM' is: '18 Aug 2020, 18:02 PM'
+
+2020-08-18 18:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:06 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 10 Aug 2020 1714 PM' is: '18 Aug 2020, 18:02 PM'
+
+2020-08-18 18:02:06 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Done"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Done'
+
+2020-08-18 18:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Done'
+
+2020-08-18 18:02:09 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN'
+
+2020-08-18 18:02:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN'
+
+2020-08-18 18:02:11 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN (1)"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN (1)' is: 'Change Card PIN'
+
+2020-08-18 18:02:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Change Card PIN (1)' is: 'Change Card PIN'
+
+2020-08-18 18:02:11 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Enter your 6-digit PIN"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Enter your 6-digit PIN' is: 'Enter your 6-digit PIN'
+
+2020-08-18 18:02:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:11 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Enter your 6-digit PIN' is: 'Enter your 6-digit PIN'
+
+2020-08-18 18:02:11 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - This PIN will be used for ATM withdrawals and purchases."), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - This PIN will be used for ATM withdrawals and purchases.' is: 'This PIN will be used for ATM withdrawals and purchases.'
+
+2020-08-18 18:02:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:12 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - This PIN will be used for ATM withdrawals and purchases.' is: 'This PIN will be used for ATM withdrawals and purchases.'
+
+2020-08-18 18:02:12 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:02:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:02:14 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot5", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:02:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot5]]
+
+2020-08-18 18:02:15 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 2 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 2 (1)'
+
+2020-08-18 18:02:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 2 (1)'
+
+2020-08-18 18:02:17 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 3 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3 (1)'
+
+2020-08-18 18:02:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3 (1)'
+
+2020-08-18 18:02:19 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 0 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 0 (1)'
+
+2020-08-18 18:02:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 0 (1)'
+
+2020-08-18 18:02:21 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:23 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:26 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 1"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 1'
+
+2020-08-18 18:02:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 1'
+
+2020-08-18 18:02:28 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.ImageView0 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.ImageView0 (1)'
+
+2020-08-18 18:02:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.ImageView0 (1)'
+
+2020-08-18 18:02:28 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 2 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 2 (1)'
+
+2020-08-18 18:02:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 2 (1)'
+
+2020-08-18 18:02:32 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 3 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3 (1)'
+
+2020-08-18 18:02:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 3 (1)'
+
+2020-08-18 18:02:34 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 0 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 0 (1)'
+
+2020-08-18 18:02:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 0 (1)'
+
+2020-08-18 18:02:36 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:38 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 9 (1)'
+
+2020-08-18 18:02:40 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 1"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 1'
+
+2020-08-18 18:02:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 1'
+
+2020-08-18 18:02:42 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.ImageView0 (1)"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.ImageView0 (1)'
+
+2020-08-18 18:02:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.ImageView0 (1)'
+
+2020-08-18 18:02:43 - [TEST_STEP][NOT_RUN] - tap(findTestObject("Maya/Nric Proxy Army/android.widget.TextView0 - Confirm (2)"), 0): NOT_RUN: tap(findTestObject("Maya/Nric Proxy Army/android.widget.TextView0 - Confirm (2)"), 0)
+
+2020-08-18 18:02:43 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("Maya/Nric Proxy Army/android.widget.TextView0 - Confirm (2)"), 0)
+
+2020-08-18 18:02:43 - [TEST_STEP][PASSED] - otpM = getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Your Otp no. is 247036"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Your Otp no. is 247036' is: 'Your Otp no. is 869562'
+
+2020-08-18 18:02:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Your Otp no. is 247036' is: 'Your Otp no. is 869562'
+
+2020-08-18 18:02:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-08-18 18:02:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:02:48 - [TEST_STEP][PASSED] - for ([i = 16, i <= 21, (i++)]): null
+
+2020-08-18 18:02:48 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:02:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-18 18:02:51 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:02:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:02:52 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy - 8"), 0): Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-18 18:02:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:02:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy - 8'
+
+2020-08-18 18:02:54 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-18 18:02:54 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:02:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-18 18:02:57 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:02:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:02:58 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 6"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-18 18:02:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-18 18:03:01 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-18 18:03:01 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-18 18:03:01 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-18 18:03:01 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:03:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-18 18:03:04 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:03:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:03:05 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 9"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-18 18:03:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 9'
+
+2020-08-18 18:03:07 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:03:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:03:10 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-18 18:03:10 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-18 18:03:10 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-18 18:03:10 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-18 18:03:10 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-18 18:03:10 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): Tapped on element 'Object Repository/Maya/login again/Spy- 5'
+
+2020-08-18 18:03:10 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:03:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:03:11 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 5"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 5'
+
+2020-08-18 18:03:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 5'
+
+2020-08-18 18:03:13 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-18 18:03:13 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-18 18:03:13 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-18 18:03:13 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-18 18:03:13 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:03:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): null
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-18 18:03:16 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:03:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:03:17 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 6"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-18 18:03:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 6'
+
+2020-08-18 18:03:20 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-18 18:03:20 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-18 18:03:20 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-18 18:03:20 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-08-18 18:03:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-08-18 18:03:23 - [TEST_STEP][PASSED] - if (otpM[i] == "0"): null
+
+2020-08-18 18:03:23 - [TEST_STEP][PASSED] - if (otpM[i] == "1"): null
+
+2020-08-18 18:03:23 - [TEST_STEP][PASSED] - if (otpM[i] == "2"): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:03:23 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2020-08-18 18:03:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2020-08-18 18:03:24 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/Spy- 2"), 0): Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:03:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/Spy- 2'
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - if (otpM[i] == "3"): null
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - if (otpM[i] == "4"): null
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - if (otpM[i] == "5"): null
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - if (otpM[i] == "6"): null
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - if (otpM[i] == "7"): null
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - if (otpM[i] == "8"): null
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - if (otpM[i] == "9"): null
+
+2020-08-18 18:03:26 - [TEST_STEP][PASSED] - delay(8, STOP_ON_FAILURE): Delayed 8 second(s)
+
+2020-08-18 18:03:34 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2020-08-18 18:03:34 - [TEST_STEP][PASSED] - tapAtPosition(826, 2048): Tapped at [826, 2,048]
+
+2020-08-18 18:03:35 - [MESSAGE][PASSED] - Tapped at [826, 2,048]
+
+2020-08-18 18:03:35 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Card PIN successfully changed."), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Card PIN successfully changed.' is: 'Card PIN successfully changed.'
+
+2020-08-18 18:03:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:37 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Card PIN successfully changed.' is: 'Card PIN successfully changed.'
+
+2020-08-18 18:03:37 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:03:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:03:39 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot6", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:03:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot6]]
+
+2020-08-18 18:03:40 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Reference ID"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Reference ID' is: 'Reference ID'
+
+2020-08-18 18:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:40 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Reference ID' is: 'Reference ID'
+
+2020-08-18 18:03:40 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 17180714347M"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 17180714347M' is: '17180761285M'
+
+2020-08-18 18:03:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 17180714347M' is: '17180761285M'
+
+2020-08-18 18:03:41 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Date  Time (1)"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Date  Time (1)' is: 'Date & time'
+
+2020-08-18 18:03:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:41 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Date  Time (1)' is: 'Date & time'
+
+2020-08-18 18:03:41 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - 10 Aug 2020 1717 PM"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 10 Aug 2020 1717 PM' is: '18 Aug 2020, 18:03 PM'
+
+2020-08-18 18:03:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:42 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - 10 Aug 2020 1717 PM' is: '18 Aug 2020, 18:03 PM'
+
+2020-08-18 18:03:42 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Done"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Done'
+
+2020-08-18 18:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Done'
+
+2020-08-18 18:03:43 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Apply for Physical MAE Card"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Apply for Physical MAE Card'
+
+2020-08-18 18:03:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Apply for Physical MAE Card'
+
+2020-08-18 18:03:46 - [TEST_STEP][NOT_RUN] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Card Management"), 0): NOT_RUN: getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Card Management"), 0)
+
+2020-08-18 18:03:46 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Card Management"), 0)
+
+2020-08-18 18:03:46 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Get a MAE card delivered straight to your home."), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Get a MAE card delivered straight to your home.' is: 'Get a MAE card delivered straight to your home.'
+
+2020-08-18 18:03:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:46 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Get a MAE card delivered straight to your home.' is: 'Get a MAE card delivered straight to your home.'
+
+2020-08-18 18:03:46 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:03:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:03:48 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot10", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:03:49 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot10]]
+
+2020-08-18 18:03:49 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Note RM 8.00 fee will be charged for card application."), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Note RM 8.00 fee will be charged for card application.' is: 'Note: RM 8.00 fee will be charged for card application.'
+
+2020-08-18 18:03:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:49 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Note RM 8.00 fee will be charged for card application.' is: 'Note: RM 8.00 fee will be charged for card application.'
+
+2020-08-18 18:03:49 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:03:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:03:51 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot7", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:03:52 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot7]]
+
+2020-08-18 18:03:52 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Benefits"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Benefits' is: 'Benefits'
+
+2020-08-18 18:03:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:52 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Benefits' is: 'Benefits'
+
+2020-08-18 18:03:52 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Free unlimited withdrawals at Maybank ATMs."), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Free unlimited withdrawals at Maybank ATMs.' is: 'Free unlimited withdrawals at Maybank ATMs.'
+
+2020-08-18 18:03:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Free unlimited withdrawals at Maybank ATMs.' is: 'Free unlimited withdrawals at Maybank ATMs.'
+
+2020-08-18 18:03:53 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Attractive currency exchange rates for all your overseas spending."), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Attractive currency exchange rates for all your overseas spending.' is: 'Attractive currency exchange rates for all your overseas spending.'
+
+2020-08-18 18:03:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:53 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Attractive currency exchange rates for all your overseas spending.' is: 'Attractive currency exchange rates for all your overseas spending.'
+
+2020-08-18 18:03:53 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Continue"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Continue'
+
+2020-08-18 18:03:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Continue'
+
+2020-08-18 18:03:55 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Insufficient Balance"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Insufficient Balance' is: 'Insufficient Balance'
+
+2020-08-18 18:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Insufficient Balance' is: 'Insufficient Balance'
+
+2020-08-18 18:03:55 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Looks like you dont have enough balance to apply for a MAE card. RM8 is required for MAE card application. Please top up your MAE account to proceed."), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Looks like you dont have enough balance to apply for a MAE card. RM8 is required for MAE card application. Please top up your MAE account to proceed.' is: 'Looks like you don't have enough balance to apply for a MAE card. RM8 is required for MAE card application. Please top up your MAE account to proceed.'
+
+2020-08-18 18:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:55 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Looks like you dont have enough balance to apply for a MAE card. RM8 is required for MAE card application. Please top up your MAE account to proceed.' is: 'Looks like you don't have enough balance to apply for a MAE card. RM8 is required for MAE card application. Please top up your MAE account to proceed.'
+
+2020-08-18 18:03:55 - [TEST_STEP][PASSED] - getText(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now"), 0): Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now' is: 'Top Up Now'
+
+2020-08-18 18:03:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:03:56 - [MESSAGE][PASSED] - Text of element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now' is: 'Top Up Now'
+
+2020-08-18 18:03:56 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:03:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:03:58 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot18", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:03:59 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot18]]
+
+2020-08-18 18:03:59 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now"), 0): Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now'
+
+2020-08-18 18:03:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:04:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now'
+
+2020-08-18 18:04:01 - [TEST_STEP][PASSED] - delay(2, CONTINUE_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-18 18:04:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-18 18:04:03 - [TEST_STEP][PASSED] - takeScreenshot("C:\Users\LENOVO\Screenshot\Maybank2u\Screenshot9", STOP_ON_FAILURE): Screenshot is taken
+
+2020-08-18 18:04:04 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\LENOVO\\Screenshot\\Maybank2u\\Screenshot9]]
+
+2020-08-18 18:04:04 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2020-08-18 18:04:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-08-18 18:04:14 - [TEST_STEP][PASSED] - getText(findTestObject("duitnow/android.widget.TextView0 - Enter amount"), 0): Text of element 'Object Repository/duitnow/android.widget.TextView0 - Enter amount' is: 'Enter amount'
+
+2020-08-18 18:04:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:04:14 - [MESSAGE][PASSED] - Text of element 'Object Repository/duitnow/android.widget.TextView0 - Enter amount' is: 'Enter amount'
+
+2020-08-18 18:04:14 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2020-08-18 18:04:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-08-18 18:04:24 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now"), 0): Object Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now not found
+
+2020-08-18 18:04:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-18 18:04:37 - [MESSAGE][FAILED] - Object Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now not found
+[[ATTACHMENT|C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200818_175937\\Maya UAT\\UAT Test Suite\\20200818_175937\\1597745075983.png]]
+
+2020-08-18 18:04:37 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2020-08-18 18:04:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-08-18 18:04:47 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-08-18 18:04:48 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[2020-08-18 17:59:40 - [TEST_CASE][FAILED] - Test Cases/JINU/MAE Cards/MAE Card: Test Cases/JINU/MAE Cards/MAE Card FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at MAE Card.run(MAE Card:357)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597744777256.run(TempTestSuite1597744777256.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-18 17:59:40 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/MAE Cards/MAE Card FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at MAE Card.run(MAE Card:357)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597744777256.run(TempTestSuite1597744777256.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-08-18 17:59:40 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/MAE Cards/MAE Card FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Maya/MAE Virtual Card/android.widget.TextView0 - Top Up Now not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at MAE Card.run(MAE Card:357)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597744777256.run(TempTestSuite1597744777256.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

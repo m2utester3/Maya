@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UAT Test Suite" time="108.552" tests="1" failures="1" errors="0">
+   <testsuite name="UAT Test Suite" tests="1" failures="1" errors="0" time="108.552" timestamp="2020-08-17 15:54:01" hostname="LENOVO - DESKTOP-CP3TV4N" id="Test Suites/Maya UAT/UAT Test Suite">
+      <properties>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_155358\\Maya UAT\\UAT Test Suite\\20200817_155358"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_155358\\Maya UAT\\UAT Test Suite\\20200817_155358\\appium.log, C:\\Users\\LENOVO\\Git_new\\Maya\\Reports\\20200817_155358\\Maya UAT\\UAT Test Suite\\20200817_155358\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="LENOVO - DESKTOP-CP3TV4N"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.15.1\&quot;}},\&quot;sessionId\&quot;:null,\&quot;status\&quot;:0}"/>
+         <property name="katalonVersion" value="7.2.7.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.15.1"/>
+         <property name="deviceModel" value="Redmi Note 7S"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="11cb9864"/>
+         <property name="deviceName" value="Xiaomi Redmi Note 7S (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy" time="106.537" classname="Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy" status="FAILED">
+         <failure type="FAILED" message="Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-08-17 15:54:02 - [TEST_CASE][FAILED] - Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy: Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more
+
+
+2020-08-17 15:54:04 - [TEST_STEP][PASSED] - startApplication("C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk", true): Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-17 15:54:04 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2020-08-17 15:54:04 - [MESSAGE][INFO] - User set preference: ['appWaitPackage', 'com.maybank2u.life.uat']
+
+2020-08-17 15:54:04 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '50,000']
+
+2020-08-17 15:54:04 - [MESSAGE][INFO] - User set preference: ['deviceId', '11cb9864']
+
+2020-08-17 15:54:07 - [MESSAGE][INFO] - Appium server started on port 49,298
+
+2020-08-17 15:55:19 - [MESSAGE][PASSED] - Started app at: 'C:\Users\LENOVO\Katalon Studio\app-uat-universal-release.apk'
+
+2020-08-17 15:55:19 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-08-17 15:55:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-08-17 15:55:24 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/android.widget.TextView0 - Next"), 0): Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-17 15:55:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 15:55:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-17 15:55:27 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/android.widget.TextView0 - Next"), 0): Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-17 15:55:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 15:55:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-17 15:55:29 - [TEST_STEP][PASSED] - tap(findTestObject("Maya/login again/android.widget.TextView0 - Next"), 0): Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-17 15:55:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 15:55:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Maya/login again/android.widget.TextView0 - Next'
+
+2020-08-17 15:55:40 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Login/android.widget.Button0-Maybank2u"), 0): Failed to tap on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 15:55:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-08-17 15:55:45 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:45 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/Login/android.widget.TextView0 - Login to Maybank2u"), 0): Failed to tap on element 'Object Repository/Maya/Login/android.widget.TextView0 - Login to Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:813)
+	at org.openqa.selenium.WebDriver$Window$getSize.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:81)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 15:55:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-08-17 15:55:46 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Maya/Login/android.widget.TextView0 - Login to Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:813)
+	at org.openqa.selenium.WebDriver$Window$getSize.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:81)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:46 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2020-08-17 15:55:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-08-17 15:55:48 - [TEST_STEP][FAILED] - takeScreenshot("C:\Users\LENOVO\Screenshot\DuitNowProxy\Screen1.png", CONTINUE_ON_FAILURE): Unable to take screenshot (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:73)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeScreenshot(MobileBuiltInKeywords.groovy:202)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeScreenshot$1.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:48 - [MESSAGE][FAILED] - Unable to take screenshot (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.doCall(TakeScreenshotKeyword.groovy:88)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword$_takeScreenshot_closure1.call(TakeScreenshotKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.takeScreenshot(TakeScreenshotKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.TakeScreenshotKeyword.execute(TakeScreenshotKeyword.groovy:73)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.takeScreenshot(MobileBuiltInKeywords.groovy:202)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$takeScreenshot$1.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:48 - [TEST_STEP][FAILED] - tap(findTestObject("Maya/login again/android.widget.EditText0"), 0): Failed to tap on element 'Object Repository/Maya/login again/android.widget.EditText0' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:813)
+	at org.openqa.selenium.WebDriver$Window$getSize.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:81)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 15:55:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-08-17 15:55:48 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Maya/login again/android.widget.EditText0' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:813)
+	at org.openqa.selenium.WebDriver$Window$getSize.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:81)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:48 - [TEST_STEP][FAILED] - setText(findTestObject("Maya/login again/android.widget.EditText0"), "army_rpp01", 0): Failed to set text into element (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:813)
+	at org.openqa.selenium.WebDriver$Window$getSize.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:81)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:492)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$2.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+2020-08-17 15:55:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2020-08-17 15:55:49 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.getSize(RemoteWebDriver.java:813)
+	at org.openqa.selenium.WebDriver$Window$getSize.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:81)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:83)
+	at com.kms.katalon.core.mobile.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.setText(MobileBuiltInKeywords.groovy:492)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$setText$2.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+
+2020-08-17 15:55:49 - [TEST_STEP][PASSED] - driver = getDriver(): null
+
+2020-08-17 15:55:49 - [TEST_STEP][PASSED] - driver.pressKeyCode(ENTER): null]]></system-out>
+         <system-err><![CDATA[2020-08-17 15:54:02 - [TEST_CASE][FAILED] - Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy: Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-08-17 15:54:01 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-08-17 15:54:01 - [TEST_SUITE][FAILED] - UAT Test Suite: Test Cases/JINU/DuiTNow Drop 2/DuiTNow Army Proxy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Failed to tap on element 'Object Repository/Maya/Login/android.widget.Button0-Maybank2u' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:39)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:23)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:577)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$0.call(Unknown Source)
+	at DuiTNow Army Proxy.run(DuiTNow Army Proxy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1597650838370.run(TempTestSuite1597650838370.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-CP3TV4N', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.appium.driver.SwipeableAndroidDriver
+Capabilities {app: C:\Users\LENOVO\Katalon Stu..., appPackage: com.maybank2u.life.uat, appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\LENOVO\Katalon Stu..., appWaitActivity: *, appWaitDuration: 50000, appWaitPackage: com.maybank2u.life.uat, autoGrantPermissions: true, automationName: uiautomator2, deviceId: 11cb9864, deviceName: Xiaomi Redmi Note 7S (Andro..., fullReset: true, newCommandTimeout: 1800, noReset: false, platform: ANDROID, platformName: android, platformVersion: 9, systemPort: 49297, udid: 11cb9864}, deviceApiLevel: 28, deviceId: 11cb9864, deviceManufacturer: Xiaomi, deviceModel: Redmi Note 7S, deviceName: 11cb9864, deviceScreenDensity: 440, deviceScreenSize: 1080x2340, deviceUDID: 11cb9864, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1800, noReset: false, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, statBarHeight: 80, systemPort: 49297, takesScreenshot: true, udid: 11cb9864, viewportRect: {height: 2051, left: 0, top: 80, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 184efa7e-701a-4659-bbe8-210a71e277e0
+*** Element info: {Using=xpath, value=//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.Button[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at com.kms.katalon.core.appium.driver.SwipeableAndroidDriver.execute(SwipeableAndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElements(DefaultGenericMobileDriver.java:54)
+	at io.appium.java_client.AppiumDriver.findElements(AppiumDriver.java:152)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementsByXPath(DefaultGenericMobileDriver.java:156)
+	at io.appium.java_client.AppiumDriver.findElementsByXPath(AppiumDriver.java:184)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findAndroidElements(MobileSearchEngine.java:156)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine.findWebElement(MobileSearchEngine.java:252)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileSearchEngine$findWebElement.call(Unknown Source)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword.findElement(MobileAbstractKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:76)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
