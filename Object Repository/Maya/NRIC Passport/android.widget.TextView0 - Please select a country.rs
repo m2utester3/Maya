@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - Please select a country</name>
    <tag></tag>
    <elementGuidId>34947584-bb36-4e49-8513-42902ec68905</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'Please select a country.' or . = 'Please select a country.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Please select a country</value>
+      <value>Please select a country.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

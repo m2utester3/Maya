@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - 4178</name>
    <tag></tag>
    <elementGuidId>9bec8905-25b6-45d6-b6ef-bfda8f2a3dab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = '**4178' or . = '**4178')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

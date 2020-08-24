@@ -1,7 +1,4 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-
-
-
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -21,23 +18,27 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\app-sit-universal-release.apk', true)
+'Launch App'
+Mobile.startApplication('C:\\Users\\LENOVO\\Katalon Studio\\app-uat-universal-release.apk', true)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - Next'), 10)
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - Next'), 0)
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - Next'), 0)
 
-Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - Next'), 0)
-
+'Launch the App'
 Mobile.tap(findTestObject('Maya/Login/android.widget.Button0-Maybank2u'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen18.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/Login/android.widget.TextView0 - Login to Maybank2u'), 0)
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.EditText0'), 0)
 
-Mobile.setText(findTestObject('Maya/login again/android.widget.EditText0'), 'rizaidi', 0)
+Mobile.setText(findTestObject('Maya/login again/android.widget.EditText0'), 'nurulhidayu01', 0)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
@@ -171,9 +172,13 @@ driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.tap(findTestObject('Maya/Login/android.widget.TextView0 - Continue'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - Savings Account'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Maya/spy/android.widget.TextView0 - Current Account-i'), 0)
 
 Mobile.tap(findTestObject('Maya/Login/android.widget.TextView0 - Continue'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen12.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/Login/android.widget.TextView0 - Done setup'), 0)
 
@@ -181,10 +186,15 @@ Mobile.verifyElementText(findTestObject('Maya/Third Party Fav/android.widget.Tex
 
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - More (1)'), 0)
 
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen10.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Settings (1)'), 0)
 
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Maybank2u (1)'), 0)
 
+'Enter One Tap Setting'
 Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - One-Tap Authorisation (1)'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
@@ -335,12 +345,18 @@ not_run: Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.Te
 
 Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - Your ID number (1)'), '1234', 0)
 
+driver.pressKeyCode(AndroidKeyCode.ENTER)
+
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
+
+Mobile.verifyElementExist(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Please enter a valid ID number to continue.'), 
+    0)
+
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
-Mobile.verifyElementExist(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Please enter a valid ID number to continue.'), 
-    0)
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen3.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
@@ -352,19 +368,34 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
+
+'ID enter'
 Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - ID number is required'), 0)
 
-Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - Your ID number (2)'), '730903095005', 
+Mobile.verifyElementExist(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - ID number is required'), 
     0)
 
-driver.pressKeyCode(AndroidKeyCode.ENTER)
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen23.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - Your ID number (2)'), '850102036544', 
+    0)
+
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
+
+not_run: driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Device Name'), 0)
 
-Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Your device name must be alphanumeric characters with no symbols and spaces'), 
+not_run: Mobile.clearText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Device Name'), 0)
+
+not_run: Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
+
+not_run: Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Your device name must be alphanumeric characters with no symbols and spaces'), 
     0)
 
-Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Enter your device name'), 0)
+not_run: Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Enter your device name'), 
+    0)
 
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.ImageView0 (5)'), 0)
 
@@ -461,14 +492,29 @@ Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditTex
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
+
+driver.pressKeyCode(AndroidKeyCode.ENTER)
+
 Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - ID number is invalid'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen15.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - ID number is invalid'), 
+    0)
 
 Mobile.clearText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 -    '), 0)
 
-Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - Your ID number (2)'), '730903095005', 
+Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - Your ID number (2)'), '850102036544', 
     0)
 
-driver.pressKeyCode(AndroidKeyCode.ENTER)
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen9.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
+
+not_run: driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.clearText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - Redmi'), 0)
 
@@ -476,10 +522,21 @@ Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditTex
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
+
+driver.pressKeyCode(AndroidKeyCode.ENTER)
+
 Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Device name must be alphanumeric characters with no symbols and spaces.'), 
     0)
 
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen14.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Device name must be alphanumeric characters with no symbols and spaces.'), 
+    0)
+
 Mobile.clearText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 -  tre'), 0)
+
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
@@ -492,11 +549,14 @@ not_run: driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.clearText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - testtesttesttes'), 0)
 
+'Device Name'
 Mobile.setText(findTestObject('Maya/One Tap Authorisation/android.widget.EditText0 - Your device name'), 'test', 0)
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen4.png', FailureHandling.CONTINUE_ON_FAILURE)
+
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
 
 Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - One-Tap Authorisation enabled'), 0)
 
@@ -509,7 +569,12 @@ Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextVie
 
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Continue (1)'), 0)
 
+'One Tap Enabled'
 Mobile.getText(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - One-Tap Authorisation (1)'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen8.png', FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 (2)'), 0)
 
@@ -517,10 +582,13 @@ Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.ImageView0 
 
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 (2)'), 0)
 
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\OneTap\\Screen17.png', FailureHandling.CONTINUE_ON_FAILURE)
+
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Cancel'), 0)
 
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 (2)'), 0)
 
+'One Tap Disabled'
 Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.TextView0 - Confirm (2)'), 0)
 
 Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)

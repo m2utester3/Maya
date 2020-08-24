@@ -18,7 +18,7 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\app-sit-universal-release.apk', false)
+Mobile.startApplication('C:\\Users\\LENOVO\\Katalon Studio\\app-uat-universal-release.apk', false)
 
 Mobile.tap(findTestObject('Maya/Change Pin/android.widget.TextView0 - More'), 0)
 
@@ -44,7 +44,7 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/Change Pin/android.widget.TextView0 - 2'), 0)
 
-Mobile.tap(findTestObject('Maya/Change Pin/android.widget.ImageView0'), 0)
+not_run: Mobile.tap(findTestObject('Maya/Change Pin/android.widget.ImageView0'), 0)
 
 Mobile.tap(findTestObject('Maya/Change Pin/android.widget.TextView0 - 2'), 0)
 
@@ -78,11 +78,11 @@ Mobile.tap(findTestObject('Maya/Change Pin/android.widget.ImageView0 (1)'), 0)
 
 Mobile.tap(findTestObject('Maya/Change Pin/android.widget.TextView0 - Change PIN'), 0)
 
-Mobile.tap(findTestObject('Maya/Change Pin/android.view.ViewGroup0'), 0)
+not_run: Mobile.tap(findTestObject('Maya/Change Pin/android.view.ViewGroup0'), 0)
 
-Mobile.tap(findTestObject('Maya/Change Pin/android.widget.ImageView0 (2)'), 0)
+not_run: Mobile.tap(findTestObject('Maya/Change Pin/android.widget.ImageView0 (2)'), 0)
 
-Mobile.verifyElementExist(findTestObject('Maya/Change Pin/android.widget.TextView0 - PIN must consist of at least 6 digits.'), 
+not_run: Mobile.verifyElementExist(findTestObject('Maya/Change Pin/android.widget.TextView0 - PIN must consist of at least 6 digits.'), 
     0)
 
 Mobile.tap(findTestObject('Maya/Change Pin/android.widget.TextView0 - 2'), 0)
@@ -177,7 +177,23 @@ Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\DuitNow-Drop2\\Pinupdated.
 
 Mobile.verifyElementExist(findTestObject('Maya/Change Pin/android.widget.TextView0 - PIN successfully updated.'), 0)
 
+Mobile.tap(findTestObject('Maya/update Profile/android.widget.ImageView0 (7)'), 0)
+
+Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 2 (2)'), 0)
+
+Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 3 (2)'), 0)
+
+Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 0 (1)'), 0)
+
+Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 9 (1)'), 0)
+
+Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 9 (1)'), 0)
+
+Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 1 (1)'), 0)
+
+Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - View Transactions'), 0)
+
 not_run: Mobile.tap(findTestObject('Maya/Change Pin/android.widget.ImageView0 (5)'), 0)
 
-Mobile.closeApplication()
+not_run: Mobile.closeApplication()
 

@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - You are required to key in a TAC for yourfirst timefavourites  Duit Now transfer.</name>
    <tag></tag>
    <elementGuidId>df3b477b-aa48-418b-8bf5-1a23c500d9af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'You are required to authenticate in One-Tap Authorisation to complete your first-time favourite transfer.' or . = 'You are required to authenticate in One-Tap Authorisation to complete your first-time favourite transfer.')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,8 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>You are required to key in a TAC for your
-first time&quot;favourites &quot; Duit Now transfer.</value>
+      <value>You are required to authenticate in One-Tap Authorisation to complete your first-time favourite transfer.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -4,6 +4,12 @@
    <name>android.widget.TextView0 - Yes Proceeed</name>
    <tag></tag>
    <elementGuidId>3f2997a3-1a47-4497-9e14-222789a03e28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.widget.TextView' and (text() = 'Yes, Proceed' or . = 'Yes, Proceed')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Yes, Proceeed</value>
+      <value>Yes, Proceed</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

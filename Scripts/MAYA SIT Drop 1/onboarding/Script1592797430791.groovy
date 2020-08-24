@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 'app launch'
-Mobile.startApplication('/Users/mosaj/Desktop/apk/app-sit-universal-release.apk', true)
+Mobile.startApplication('C:\\Users\\LENOVO\\Katalon Studio/app-sit-universal-release.apk', false)
 
 def height = Mobile.getDeviceHeight()
 
@@ -31,6 +31,8 @@ Mobile.tap(findTestObject('MAYA SIT Regression SPY/onboarding - next button'), 0
 Mobile.tap(findTestObject('MAYA SIT Regression SPY/onboarding - next button'), 0)
 
 WebUI.delay(3)
+
+WebUI.delay(0)
 
 Mobile.takeScreenshot('/Users/mosaj/katalon/screenshots/onboarding/1.png', FailureHandling.CONTINUE_ON_FAILURE)
 

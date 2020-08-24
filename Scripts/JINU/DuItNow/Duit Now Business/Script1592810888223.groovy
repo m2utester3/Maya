@@ -18,41 +18,46 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\app-sit-universal-release.apk', false)
+Mobile.startApplication('C:\\Users\\LENOVO\\Katalon Studio\\app-uat-universal-release.apk', false)
 
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.ImageView0'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.ImageView0'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - 2'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - 2'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - 3'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - 3'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - 0'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - 0'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - 9'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - 9'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - 8'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - 8'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - 3'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - 3'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.ImageView0 (1)'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - Savings Account'), 0)
+Mobile.getText(findTestObject('Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.ImageView0 (1)'), 0)
+String trx6 = Mobile.getText(findTestObject('Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance'), 0).substring(
+    4)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.EditText0'), 0)
+String trx61 = trx6.replaceAll('[^a-zA-Z0-9]+', '')
 
-Mobile.setText(findTestObject('Maya/duitnow/android.widget.EditText0'), 'pass1234', 0)
+System.out.println(trx61)
 
-AndroidDriver<?> driver = MobileDriverFactory.getDriver()
+int trx611 = ((trx61) as Integer)
 
-driver.pressKeyCode(AndroidKeyCode.ENTER)
+System.out.println(trx611)
 
-Mobile.tap(findTestObject('Maya/NRICduitnow/DUITNOW'), 0)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - Transfer'), 0)
 
-Mobile.tap(findTestObject('Maya/NRICduitnow/duitnow pic'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.setText(findTestObject('Maya/DuitnowRegT/android.widget.EditText0'), 'pass1234', 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/arrow duitnow'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.view.ViewGroup0'), 0)
+
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.view.ViewGroup0 (1)'), 0)
+
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.ImageView0-Arrow Reg'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(3, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -62,7 +67,19 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/duitnow BusinessReg/done business reg'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.tap(findTestObject('Maya/duitnow BusinessReg/Tap Business Reg'), 0)
+Mobile.getText(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - ID type'), 0)
+
+Mobile.getText(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - Business Registration Number'), 0)
+
+Mobile.getText(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - DuitNow'), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - Continue'), 0)
+
+Mobile.tap(findTestObject('Maya/DuitnowRegT/android.widget.EditText0 - Enter business reg. no.'), 0)
+
+Mobile.getText(findTestObject('Maya/DuitnowRegT/android.widget.TextView0 - Please enter valid transfer details.'), 0)
 
 Mobile.setText(findTestObject('Maya/duitnow BusinessReg/Enter business reg'), '123456789012', 0)
 
@@ -102,27 +119,6 @@ Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\Third Party Fav\\Enter ref
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
-not_run: Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Continue'), 0)
-
-not_run: Mobile.tap(findTestObject('Maya/duitnow/android.widget.ImageView0 (5)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: Mobile.tap(findTestObject('Maya/duitnow/android.widget.ImageView0 (6)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - OK'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - Yes Its Mine'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: Mobile.tap(findTestObject('Maya/duitnow/android.widget.ImageView0 (7)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: Mobile.tap(findTestObject('Maya/duitnow/android.widget.EditText0 - Enter your ID Number'), 0)
-
-not_run: Mobile.setText(findTestObject('Maya/duitnow/android.widget.EditText0 - Enter your ID Number'), '730903095005', 
-    0)
-
-not_run: driver.pressKeyCode(AndroidKeyCode.ENTER)
-
-Mobile.delay(30, FailureHandling.CONTINUE_ON_FAILURE)
-
 Mobile.getText(findTestObject('Maya/duitnow/android.widget.TextView0 - RM 2.00 (1)'), 0)
 
 Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - Today (1)'), 0)
@@ -134,6 +130,20 @@ Mobile.tap(findTestObject('Maya/duitnow/android.view.ViewGroup0 (1)'), 0)
 Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - Done (1)'), 0)
 
 Mobile.getText(findTestObject('Maya/duitnow/android.widget.TextView0 - Test'), 0)
+
+Mobile.getText(findTestObject('Maya/drop4 CR/android.widget.TextView0 - RM 2.00-transfer amt'), 0)
+String trx5 = Mobile.getText(findTestObject('Maya/drop4 CR/android.widget.TextView0 - RM 2.00-transfer amt'), 0).substring(
+	4)
+
+String trx51 = trx5.replaceAll('[^a-zA-Z0-9]+', '')
+
+System.out.println(trx51)
+
+int trx511 = ((trx51) as Integer)
+
+System.out.println(trx511)
+
+
 
 Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\Third Party Fav\\ConfDuitNow.png', FailureHandling.STOP_ON_FAILURE)
 
@@ -165,5 +175,4 @@ driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\Third Party Fav\\Add Fav.png', FailureHandling.STOP_ON_FAILURE)
 
-not_run: Mobile.closeApplication()
 

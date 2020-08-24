@@ -95,7 +95,7 @@ Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/Third Party CA account/Enter ID'), 0)
 
-Mobile.setText(findTestObject('Maya/Third Party CA account/Enter ID'), 'E5688501ASGP', 0)
+Mobile.setText(findTestObject('Maya/Third Party CA account/Enter ID'), '850102036544', 0)
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
@@ -110,8 +110,4 @@ Mobile.tap(findTestObject('Maya/Third Party CA account/Approve-Transfer-now'), 0
 Mobile.takeScreenshot('c/user/abc/1.png', FailureHandling.STOP_ON_FAILURE)
 
 not_run: Mobile.tap(findTestObject('Maya/Third Party CA account/Done-Transfer-Successful'), 0)
-
-Mobile.closeApplication()
-
-Mobile.closeApplication()
 

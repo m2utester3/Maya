@@ -18,7 +18,7 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\app-sit-universal-release.apk', true)
+Mobile.startApplication('C:\\Users\\LENOVO\\Katalon Studio\\app-uat-universal-release.apk', false)
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
@@ -34,7 +34,7 @@ Mobile.tap(findTestObject('Maya/Login/android.widget.TextView0 - Login to Mayban
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.EditText0'), 0)
 
-Mobile.setText(findTestObject('Maya/login again/android.widget.EditText0'), 'rizaidi', 0)
+Mobile.setText(findTestObject('Maya/login again/android.widget.EditText0'), 'nurulhidayu01', 0)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
@@ -60,9 +60,9 @@ Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - 8'), 0)
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - 3'), 0)
 
-not_run: Mobile.tap(findTestObject('Maya/Login/android.widget.ImageView0'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.ImageView0 (8)'), 0)
 
-Mobile.tap(findTestObject('Maya/Login/android.widget.ImageView0-Enter OTP'), 0)
+not_run: Mobile.tap(findTestObject('Maya/Login/android.widget.ImageView0-Enter OTP'), 0)
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - 2'), 0)
 
@@ -76,7 +76,9 @@ Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - 8'), 0)
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - 3'), 0)
 
-Mobile.tap(findTestObject('Maya/Login/android.widget.ImageView0-Enter OTP'), 0)
+Mobile.tap(findTestObject('Maya/One Tap Authorisation/android.widget.ImageView0 (8)'), 0)
+
+not_run: Mobile.tap(findTestObject('Maya/Login/android.widget.ImageView0-Enter OTP'), 0)
 
 Mobile.tap(findTestObject('Maya/login again/android.widget.TextView0 - Yes Proceeed'), 0)
 
@@ -156,7 +158,7 @@ for (def i = 16; i <= 21; i++) {
 
 Mobile.delay(8, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/Enter'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Maya/Forgot Pin/android.widget.ImageView0 (7)'), 0)
 
 Mobile.tap(findTestObject('Maya/Login/android.widget.EditText0 - Enter your name'), 0)
 
@@ -174,27 +176,48 @@ Mobile.tap(findTestObject('Maya/Login/android.widget.TextView0 - Done setup'), 0
 
 Mobile.verifyElementText(findTestObject('Maya/Third Party Fav/android.widget.TextView0 - Test'), 'Test', FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(10, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Maya/New_Transfer/android.widget.TextView0 - Maybank2u'), 0)
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Maybank2u'), 0)
+Mobile.tap(findTestObject('Maya/New_Transfer/android.widget.ImageView0'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.getText(findTestObject('Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance'), 0)
 
-Mobile.tap(findTestObject('Maya/duitnow/android.widget.TextView0 - Savings Account'), 0)
+String trx6 = Mobile.getText(findTestObject('Maya/drop4 CR/android.widget.TextView0 - RM 1171.85-Current balance'), 0).substring(
+    3)
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Transfer'), 0)
+String trx61 = trx6.replaceAll('[^a-zA-Z0-9]+', '')
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - OTHERS'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+System.out.println(trx61)
 
-Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\Third Party Fav\\Transfer_Others.png', FailureHandling.STOP_ON_FAILURE)
+int trx611 = ((trx61) as Integer)
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Instant'), 0)
+System.out.println(trx611)
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - MAYBANK'), 0)
+Mobile.tap(findTestObject('Maya/New_Transfer/android.widget.TextView0 - Transfer'), 0)
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.EditText0'), 0)
+Mobile.setText(findTestObject('Maya/New_Transfer/android.widget.EditText0'), 'pass1234', 0)
+
+driver.pressKeyCode(AndroidKeyCode.ENTER)
+
+WebUI.delay(4)
+
+Mobile.tapAtPosition(348, 380)
+
+WebUI.delay(4)
+
+Mobile.tapAtPosition(199, 788)
+
+Mobile.tap(findTestObject('Maya/New_Transfer/android.view.ViewGroup0'), 0)
+
+Mobile.tap(findTestObject('Maya/New_Transfer/android.widget.TextView0 - MAYBANK'), 0)
+
+Mobile.tap(findTestObject('Maya/New_Transfer/android.widget.ImageView0 (2)'), 0)
+
+Mobile.tap(findTestObject('Maya/New_Transfer/android.widget.TextView0 - MAYBANK'), 0)
 
 Mobile.setText(findTestObject('Maya/Third Party CA account/android.widget.EditText0'), '501600000048', 0)
+
+driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\Third Party Fav\\Enter Account.png', FailureHandling.STOP_ON_FAILURE)
 
@@ -208,19 +231,15 @@ Mobile.tap(findTestObject('Maya/login again/Spy-0'), 0)
 
 Mobile.tap(findTestObject('Maya/login again/Spy-0'), 0)
 
-not_run: driver.pressKeyCode(AndroidKeyCode.ENTER)
+Mobile.tap(findTestObject('Maya/New_Transfer/android.widget.ImageView0-enter amt'), 0)
 
 Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\Third Party Fav\\Amount Enter.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Maya/Third Party CA account/Verify acct Third party CA'), 0)
 
-Mobile.tap(findTestObject('Maya/Third Party CA account/eNTER-AMOUNT'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-not_run: Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.ImageView0 (1)'), 0)
+not_run: Mobile.tap(findTestObject('Maya/Forgot Pin/android.widget.ImageView0 (7)'), 0)
 
 Mobile.tap(findTestObject('Maya/duitnow Army/enter ref'), 0)
-
-driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 not_run: Mobile.verifyElementExist(findTestObject('Maya/duitNowFav/android.widget.TextView0 - Please enter a recipient reference.'), 
     0)
@@ -317,7 +336,7 @@ Mobile.delay(8, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/Third Party CA account/Enter'), 0)
 
-Mobile.setText(findTestObject('Maya/Third Party CA account/android.widget.EditText0 - Your ID number'), '730903095005', 
+Mobile.setText(findTestObject('Maya/Third Party CA account/android.widget.EditText0 - Your ID number'), '850102036544', 
     0)
 
 driver.pressKeyCode(AndroidKeyCode.ENTER)
@@ -367,6 +386,87 @@ Mobile.verifyElementExist(findTestObject('Maya/duitnow/android.widget.TextView0 
 
 Mobile.tap(findTestObject('Maya/NRICduitnow/android.widget.TextView0 - Add to Favourites'), 0)
 
+Mobile.tap(findTestObject('Maya/duitNowFav/android.widget.TextView0 - Done'), 0)
+
+not_run: Mobile.tap(findTestObject('Maya/spy/android.widget.TextView0 - Current Account-i'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Recipient reference (1)'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Test'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Amount'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - RM 2.00'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Note This receipt is computer generated and no signature is required.'), 
+    0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Malayan Banking Berhad (Co. Reg.  196001000142)'), 
+    0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Maybank Islamic Berhad (Co. Reg.  200701029411)'), 
+    0)
+
+Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Got It'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Notifications'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Today'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Maybank2u Transfer'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Youve transferred RM 2.00 to TPOLCAs MAYBANK account ending 0048. REF 17180683341M'), 
+    0)
+
+Mobile.closeApplication()
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - To'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - From'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Transaction type'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Date (1)'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - TPOLCA5016 0000 0048'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Current Account-i5640 1703 5529'), 
+    0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Transfer (1)'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - 03 Aug 2020 440 PM'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - One-Tap Authorisation'), 0)
+
+Mobile.tap(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Share Receipt'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.widget.TextView0 - Share Receipt (1)'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Third Party Transfer'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Successful'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Reference ID'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - 17180683291M'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - 03 Aug 2020 442 PM'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Beneficiary name'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - TPOLCA'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Beneficiary account number'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - 5016 0000 0048'), 0)
+
+Mobile.getText(findTestObject('Maya/Third Party CA account/android.view.View0 - Recipient reference'), 0)
+
+Mobile.closeApplication()
+
+Mobile.closeApplication()
+
 not_run: Mobile.tap(findTestObject('Maya/NRICduitnow/android.widget.EditText0 - XXXXX XXXXX'), 0)
 
 not_run: Mobile.clearText(findTestObject('Maya/NRICduitnow/android.widget.EditText0 - XXXXX XXXXX'), 0)
@@ -381,5 +481,5 @@ not_run: driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\Third Party Fav\\Add Fav.png', FailureHandling.STOP_ON_FAILURE)
 
-
+Mobile.tap(findTestObject('Maya/duitNowFav/android.widget.TextView0 - Done (1)'), 0)
 

@@ -18,11 +18,13 @@ import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as Mobil
 import io.appium.java_client.android.AndroidDriver as AndroidDriver
 import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
-Mobile.startApplication('C:\\Users\\LENOVO\\Downloads\\app-sit-universal-release.apk', false)
+Mobile.startApplication('C:\\Users\\LENOVO\\Katalon Studio\\app-uat-universal-release.apk', false)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - More'), 0)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - Settings'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Settings1.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - Manage account details'), 0)
 
@@ -48,17 +50,27 @@ Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - Profil
 
 Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - Last successful login'), 0)
 
+Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Last successful login'), 0)
+
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Profile.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - Update Profile'), 0)
 
+Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Update Profile'), 0)
+
 Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - Name'), 0)
+
+Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Name'), 0)
 
 Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - Mobile number'), 0)
 
+Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Mobile number'), 0)
+
 Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - Email address'), 0)
+
+Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Email address'), 0)
 
 Mobile.setText(findTestObject('Maya/update Profile/android.widget.EditText0 - check'), 'ch', 0)
 
@@ -67,6 +79,8 @@ AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - Save Changes'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Settings4.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Name must contain at least 3 alphabetical characters and space(s) only.'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
@@ -114,6 +128,10 @@ Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - Wh
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 6'), 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Mobile2.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 4'), 0)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 3 (1)'), 0)
@@ -127,6 +145,8 @@ Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 7'), 0
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 1'), 0)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - 7'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Settings5.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.ImageView0 (1)'), 0)
 
@@ -209,11 +229,13 @@ for (def i = 16; i <= 21; i++) {
 
 Mobile.delay(8, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\MobileUpdate.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Maya/Forgot Pin/android.widget.ImageView0 (7)'), 0)
 
-not_run: Mobile.tap(findTestObject('Maya/update Profile/android.widget.ImageView0 (1)'), 0)
+Mobile.getText(findTestObject('Maya/update Profile/android.widget.TextView0 - 6016 XXXX 717'), 0)
 
-Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\MobileUpdate.png', FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.tap(findTestObject('Maya/update Profile/android.widget.ImageView0 (1)'), 0)
 
 not_run: Mobile.tap(findTestObject('Maya/update Profile/android.widget.EditText0 - thgmail.com'), 0)
 
@@ -223,7 +245,7 @@ driver.pressKeyCode(AndroidKeyCode.ENTER)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - Save Changes'), 0)
 
-Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Please enter a valid email address.'), 
+not_run: Mobile.verifyElementExist(findTestObject('Maya/update Profile/android.widget.TextView0 - Please enter a valid email address.'), 
     0, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
@@ -241,6 +263,8 @@ Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Email_updat
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.ImageView0 (3)'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - Take a photo'), 0)
+
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Settings9.png', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.ImageView0 (4)'), 0)
 
@@ -262,7 +286,11 @@ not_run: Mobile.tap(findTestObject('Maya/update Profile/android.widget.ImageView
 
 not_run: Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0'), 0)
 
+Mobile.takeScreenshot('C:\\Users\\LENOVO\\Screenshot\\UpdateProfile\\Profile_update2.png', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.delay(8, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.setText(findTestObject('Maya/update Profile/android.widget.EditText0 - th'), 'thhij@gmail.com', 0)
 
 Mobile.tap(findTestObject('Maya/update Profile/android.widget.TextView0 - Save Changes'), 0)
 

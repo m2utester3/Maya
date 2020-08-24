@@ -4,6 +4,12 @@
    <name>android.view.View0 - KLIA</name>
    <tag></tag>
    <elementGuidId>f357115e-8128-4f64-8bb0-51ff0301331c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'android.view.View' and (text() = 'Kuala Lumpur' or . = 'Kuala Lumpur')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>KLIA</value>
+      <value>Kuala Lumpur</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
